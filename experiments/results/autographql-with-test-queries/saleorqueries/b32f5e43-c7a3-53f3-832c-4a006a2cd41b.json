@@ -1,0 +1,1 @@
+{"query": "\n    query ($sort_by: MenuSortingInput!) {\n        menus(first:5, sortBy: $sort_by) {\n            edges{\n                node{\n                    name\n                }\n            }\n        }\n    }\n", "variables": {"sort_by": {"field": "ITEMS_COUNT", "direction": "ASC"}}, "operationName": ""}

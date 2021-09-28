@@ -1,0 +1,1 @@
+{"query": "\n    mutation RequestPasswordReset($email: String!, $redirectUrl: String!) {\n        requestPasswordReset(email: $email, redirectUrl: $redirectUrl) {\n            errors {\n                field\n                message\n            }\n        }\n    }\n", "variables": {"email": "staff_test@example.com", "redirectUrl": "https://www.example.com"}, "operationName": ""}

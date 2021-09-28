@@ -1,0 +1,1 @@
+{"query": "\n    mutation updateProductImage($imageId: ID!, $alt: String) {\n        productImageUpdate(id: $imageId, input: {alt: $alt}) {\n            image {\n                alt\n            }\n        }\n    }\n    ", "variables": {"alt": "damage alt", "imageId": "UHJvZHVjdEltYWdlOjk="}, "operationName": ""}

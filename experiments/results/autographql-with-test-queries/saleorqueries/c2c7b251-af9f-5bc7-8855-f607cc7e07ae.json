@@ -1,0 +1,1 @@
+{"query": "\n    query productsMeta($id: ID!){\n        product(id: $id){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "UHJvZHVjdDoxNDM="}, "operationName": ""}

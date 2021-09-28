@@ -1,0 +1,1 @@
+{"query": "\nmutation cancelOrder($id: ID!) {\n    orderCancel(id: $id) {\n        order {\n            status\n        }\n        orderErrors{\n            field\n            code\n        }\n    }\n}\n", "variables": {"id": "T3JkZXI6MjA1"}, "operationName": ""}

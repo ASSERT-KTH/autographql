@@ -1,0 +1,1 @@
+{"query": "\n    mutation invoiceDelete($id: ID!) {\n        invoiceDelete(\n            id: $id\n        ) {\n            invoiceErrors {\n                field\n                code\n            }\n        }\n    }\n", "variables": {"id": "SW52b2ljZToz"}, "operationName": ""}

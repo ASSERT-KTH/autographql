@@ -1,0 +1,1 @@
+{"query": "\nquery getCheckout($token: UUID!) {\n    checkout(token: $token) {\n        token\n    }\n}\n", "variables": {"token": "1912e728-de67-4533-9d22-c7fe72ecd3d9"}, "operationName": ""}

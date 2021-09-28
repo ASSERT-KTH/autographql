@@ -1,0 +1,1 @@
+{"query": "\n    query userMeta($id: ID!){\n        user(id: $id){\n            privateMetadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "VXNlcjo5MTA="}, "operationName": ""}

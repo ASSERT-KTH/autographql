@@ -1,0 +1,1 @@
+{"query": "\n    mutation deleteUserAddress($id: ID!) {\n        addressDelete(id: $id) {\n            address {\n                city\n            }\n            user {\n                id\n            }\n        }\n    }\n", "variables": {"id": "QWRkcmVzczoxNzQ="}, "operationName": ""}

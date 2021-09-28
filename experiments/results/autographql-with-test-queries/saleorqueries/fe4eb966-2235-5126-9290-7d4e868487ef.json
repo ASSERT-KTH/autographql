@@ -1,0 +1,1 @@
+{"query": "\n    mutation webhookDelete($id: ID!){\n      webhookDelete(id: $id){\n        webhookErrors{\n          field\n          message\n          code\n        }\n      }\n    }\n", "variables": {"id": "V2ViaG9vazo1MQ=="}, "operationName": ""}

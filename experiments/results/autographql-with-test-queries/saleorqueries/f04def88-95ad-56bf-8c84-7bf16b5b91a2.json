@@ -1,0 +1,1 @@
+{"query": "\n    query Margin($id: ID!) {\n        productVariant(id: $id) {\n            digitalContent{\n                id\n            }\n        }\n    }\n    ", "variables": {"id": "UHJvZHVjdFZhcmlhbnQ6NzI0"}, "operationName": ""}

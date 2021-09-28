@@ -1,0 +1,1 @@
+{"query": "\n    mutation menuItemBulkDelete($ids: [ID]!) {\n        menuItemBulkDelete(ids: $ids) {\n            count\n        }\n    }\n    ", "variables": {"ids": []}, "operationName": ""}

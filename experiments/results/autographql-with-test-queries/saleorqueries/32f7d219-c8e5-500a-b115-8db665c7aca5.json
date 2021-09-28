@@ -1,0 +1,1 @@
+{"query": "\n        query GetCategory($id: ID!) {\n            category(id: $id) {\n                name\n            }\n        }\n    ", "variables": {"id": "Q2F0ZWdvcnk6MTk3"}, "operationName": ""}

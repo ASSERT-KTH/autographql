@@ -1,0 +1,1 @@
+{"query": "\n    query($id: ID!) {\n        attribute(id: $id) {\n            id\n            slug\n        }\n    }\n    ", "variables": {"id": "QXR0cmlidXRlOjQ5OQ=="}, "operationName": ""}

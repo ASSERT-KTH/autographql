@@ -1,0 +1,1 @@
+{"query": "\n        query{\n            checkout(token: \"a488322f-87f3-424e-b228-4e16684ae722\") {\n                token\n            }\n        }\n    ", "variables": "", "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        products {\n            totalCount\n        }\n    }\n    ", "variables": "", "operationName": ""}

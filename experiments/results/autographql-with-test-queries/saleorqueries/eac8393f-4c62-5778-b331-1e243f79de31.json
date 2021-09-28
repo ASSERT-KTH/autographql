@@ -1,0 +1,1 @@
+{"query": "\n        mutation orderRefund($id: ID!) {\n          orderRefund(id: $id , amount: 2) {\n            errors {\n              field\n              message\n            }\n          }\n        }\n    ", "variables": {"id": "T3JkZXI6MjE0"}, "operationName": ""}

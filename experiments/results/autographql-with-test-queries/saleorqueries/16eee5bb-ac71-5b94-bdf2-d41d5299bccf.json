@@ -1,0 +1,1 @@
+{"query": "\n    {\n        homepageEvents(first: 20) {\n            edges {\n                node {\n                    date\n                    type\n                }\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

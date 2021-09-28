@@ -1,0 +1,1 @@
+{"query": "\n    mutation PaymentVoid($paymentId: ID!) {\n        paymentVoid(paymentId: $paymentId) {\n            payment {\n                id,\n                chargeStatus\n            }\n            errors {\n                field\n                message\n            }\n        }\n    }\n", "variables": {"paymentId": "UGF5bWVudDozMQ=="}, "operationName": ""}

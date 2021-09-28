@@ -1,0 +1,1 @@
+{"query": "\n    mutation shippingPriceBulkDelete($ids: [ID]!) {\n        shippingPriceBulkDelete(ids: $ids) {\n            count\n        }\n    }\n    ", "variables": {"ids": ["U2hpcHBpbmdNZXRob2Q6NDgz", "U2hpcHBpbmdNZXRob2Q6NDg0", "U2hpcHBpbmdNZXRob2Q6NDg1"]}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation {\n        categoryCreate(input: {name: \"Test\"}, parent: \"123456\") {\n            errors {\n                field\n                message\n            }\n            category {\n                id\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

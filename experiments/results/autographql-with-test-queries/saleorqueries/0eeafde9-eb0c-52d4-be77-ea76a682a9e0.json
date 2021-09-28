@@ -1,0 +1,1 @@
+{"query": "\n    mutation userAvatarDelete {\n        userAvatarDelete {\n            user {\n                avatar {\n                    url\n                }\n            }\n        }\n    }\n", "variables": "", "operationName": ""}

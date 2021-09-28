@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            authorizationKeys {\n                name\n                key\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation appTokenDelete($id: ID!){\n      appTokenDelete(id: $id){\n        appErrors{\n          field\n          message\n          code\n        }\n        appToken{\n          name\n          authToken\n        }\n      }\n    }\n", "variables": {"id": "QXBwVG9rZW46NTg="}, "operationName": ""}

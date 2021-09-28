@@ -1,0 +1,1 @@
+{"query": "\n        mutation fulfillmentClearMeta($id: ID!, $input: MetaPath!) {\n            orderFulfillmentClearMeta(id: $id, input: $input) {\n                errors {\n                    message\n                }\n            }\n        }\n    ", "variables": {"id": "RnVsZmlsbG1lbnQ6Mjc=", "input": {"namespace": "", "clientName": "", "key": "foo"}}, "operationName": ""}

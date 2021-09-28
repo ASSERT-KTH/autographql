@@ -1,0 +1,1 @@
+{"query": "\n    mutation updateShopAddress($input: AddressInput){\n        shopAddressUpdate(input: $input){\n            errors{\n                field\n                message\n            }\n        }\n    }\n", "variables": {"input": {"streetAddress1": "T\u0119czowa 7", "city": "WROC\u0141AW", "country": "PL", "postalCode": "53-601"}}, "operationName": ""}

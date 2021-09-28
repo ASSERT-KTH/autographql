@@ -1,0 +1,1 @@
+{"query": "\n    mutation updateMenuItem($id: ID!, $page: ID) {\n        menuItemUpdate(id: $id, input: {page: $page}) {\n            menuItem {\n                page {\n                    id\n                }\n            }\n        }\n    }\n    ", "variables": {"id": "TWVudUl0ZW06MzM=", "page": "UGFnZTo1"}, "operationName": ""}

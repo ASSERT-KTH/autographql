@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            currencies\n            defaultCurrency\n        }\n    }\n    ", "variables": "", "operationName": ""}

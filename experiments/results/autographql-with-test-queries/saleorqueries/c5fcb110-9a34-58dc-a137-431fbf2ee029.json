@@ -1,0 +1,1 @@
+{"query": "\n            query($id: ID!) {\n              productVariant(id: $id) {\n                attributes {\n                  attribute {\n                    id\n                  }\n                }\n              }\n            }\n        ", "variables": {"id": "UHJvZHVjdFZhcmlhbnQ6NDk4"}, "operationName": ""}

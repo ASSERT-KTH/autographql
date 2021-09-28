@@ -1,0 +1,1 @@
+{"query": "\n    query ($filter: CollectionFilterInput!, ) {\n          collections(first:5, filter: $filter) {\n            edges{\n              node{\n                id\n                name\n              }\n            }\n          }\n        }\n        ", "variables": {"filter": {"published": "HIDDEN"}}, "operationName": ""}

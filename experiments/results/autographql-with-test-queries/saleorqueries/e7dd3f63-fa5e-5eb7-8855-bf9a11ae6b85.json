@@ -1,0 +1,1 @@
+{"query": "\nquery variants($filter: ProductVariantFilterInput){\n    productVariants(first:10, filter: $filter){\n        edges{\n            node{\n                name\n                sku\n            }\n        }\n    }\n}\n", "variables": {"filter": {"search": "XXL"}}, "operationName": ""}

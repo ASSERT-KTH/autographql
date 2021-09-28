@@ -1,0 +1,1 @@
+{"query": "\nquery stock($id: ID!) {\n    stock(id: $id) {\n        warehouse {\n            name\n        }\n        productVariant {\n            product {\n                name\n            }\n        }\n        quantity\n        quantityAllocated\n    }\n}\n", "variables": {"id": "U3RvY2s6ODg1"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query ($filter: MenuFilterInput) {\n        menus(first: 5, filter:$filter) {\n            totalCount\n            edges {\n                node {\n                    id\n                    name\n                    slug\n                }\n            }\n        }\n    }\n", "variables": {"filter": {"search": "menu3-slug"}}, "operationName": ""}

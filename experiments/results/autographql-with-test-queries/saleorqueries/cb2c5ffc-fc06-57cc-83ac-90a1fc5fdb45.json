@@ -1,0 +1,1 @@
+{"query": "{ product(id: \"UHJvZHVjdDoxMg==\") { name } }", "variables": "", "operationName": ""}

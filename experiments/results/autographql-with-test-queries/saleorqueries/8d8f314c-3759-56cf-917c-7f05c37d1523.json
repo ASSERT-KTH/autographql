@@ -1,0 +1,1 @@
+{"query": "\n        query getProduct($productID: ID!) {\n            product(id: $productID) {\n                collections {\n                    name\n                }\n            }\n        }\n        ", "variables": {"productID": "UHJvZHVjdDo1MTY="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation updateShopAddress($input: AddressInput){\n        shopAddressUpdate(input: $input){\n            errors{\n                field\n                message\n            }\n        }\n    }\n", "variables": {"input": null}, "operationName": ""}

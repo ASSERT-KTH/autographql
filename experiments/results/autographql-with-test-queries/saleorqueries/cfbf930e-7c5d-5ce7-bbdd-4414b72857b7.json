@@ -1,0 +1,1 @@
+{"query": "\n    query ($sort_by: CategorySortingInput!) {\n        categories(first:5, sortBy: $sort_by) {\n                edges{\n                    node{\n                        name\n                    }\n                }\n            }\n        }\n", "variables": {"sort_by": {"field": "NAME", "direction": "ASC"}}, "operationName": ""}

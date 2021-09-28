@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            automaticFulfillmentDigitalProducts\n            defaultDigitalMaxDownloads\n            defaultDigitalUrlValidDays\n        }\n    }", "variables": "", "operationName": ""}

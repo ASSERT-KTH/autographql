@@ -1,0 +1,1 @@
+{"query": "\n    query appMeta($id: ID!){\n        app(id: $id){\n            privateMetadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "QXBwOjE3NQ=="}, "operationName": ""}

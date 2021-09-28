@@ -1,0 +1,1 @@
+{"query": "\n        query PagesQuery {\n            pages(first: 2) {\n                edges {\n                    node {\n                        id\n                        title\n                    }\n                }\n            }\n        }\n        ", "variables": "", "operationName": ""}

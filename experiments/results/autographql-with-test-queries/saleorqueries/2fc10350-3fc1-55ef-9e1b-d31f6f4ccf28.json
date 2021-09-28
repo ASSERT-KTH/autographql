@@ -1,0 +1,1 @@
+{"query": "\n    query ($filter: SaleFilterInput!, ) {\n      sales(first:5, filter: $filter){\n        edges{\n          node{\n            id\n            name\n            startDate\n          }\n        }\n      }\n    }\n    ", "variables": {"filter": {"started": {"gte": "2019-04-18T00:00:00+00:00"}}}, "operationName": ""}

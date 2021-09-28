@@ -1,0 +1,1 @@
+{"query": "\n    query Me {\n        me {\n            id\n            email\n            note\n        }\n    }\n    ", "variables": "", "operationName": ""}

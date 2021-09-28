@@ -1,0 +1,1 @@
+{"query": "\n    query TranslationsQuery($kind: TranslatableKinds!) {\n        translations(kind: $kind, first: 1) {\n            edges {\n                node {\n                    __typename\n                }\n            }\n        }\n    }\n    ", "variables": {"kind": "ATTRIBUTE"}, "operationName": ""}

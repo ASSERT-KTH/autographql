@@ -1,0 +1,1 @@
+{"query": "\n    query DraftOrdersQuery {\n        draftOrders(first: 10) {\n            edges {\n                node {\n                    id\n                }\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

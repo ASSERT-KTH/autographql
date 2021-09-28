@@ -1,0 +1,1 @@
+{"query": "\n        query {\n            shop {\n                geolocalization {\n                    country {\n                        code\n                    }\n                }\n            }\n        }\n    ", "variables": "", "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query ($id: ID, $slug: String){\n        collection(\n            id: $id,\n            slug: $slug,\n        ) {\n            id\n            name\n        }\n    }\n    ", "variables": {"id": "Q29sbGVjdGlvbjozMg==", "slug": "collection"}, "operationName": ""}

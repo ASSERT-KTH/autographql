@@ -1,0 +1,1 @@
+{"query": "\nquery address($id: ID!) {\n    address(id: $id) {\n        postalCode\n        lastName\n        firstName\n        city\n        country {\n          code\n        }\n    }\n}\n", "variables": {"id": "QWRkcmVzczoyMjY="}, "operationName": ""}

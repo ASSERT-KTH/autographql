@@ -1,0 +1,1 @@
+{"query": "\n    query attributeMeta($id: ID!){\n        attribute(id: $id){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "QXR0cmlidXRlOjIzOA=="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    {\n        checkouts(first: 20) {\n            edges {\n                node {\n                    token\n                }\n            }\n        }\n    }\n    ", "variables": {}, "operationName": ""}

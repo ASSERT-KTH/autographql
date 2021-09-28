@@ -1,0 +1,1 @@
+{"query": "\nquery CollectionProducts($id: ID!, $sortBy: ProductOrder) {\n  collection(id: $id) {\n    products(first: 10, sortBy: $sortBy) {\n      edges {\n        node {\n          id\n        }\n      }\n    }\n  }\n}\n", "variables": {"id": "Q29sbGVjdGlvbjo3Ng==", "sortBy": {"direction": "DESC", "field": "NAME"}}, "operationName": ""}

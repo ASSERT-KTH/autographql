@@ -1,0 +1,1 @@
+{"query": "\n    mutation CustomerDelete($id: ID!) {\n        customerDelete(id: $id){\n            errors {\n                field\n                message\n            }\n            user {\n                id\n            }\n        }\n    }\n    ", "variables": {"id": "VXNlcjo2Ng=="}, "operationName": ""}

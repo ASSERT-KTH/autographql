@@ -1,0 +1,1 @@
+{"query": "\n    query collectionMeta($id: ID!){\n        collection(id: $id){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "Q29sbGVjdGlvbjoxOQ=="}, "operationName": ""}

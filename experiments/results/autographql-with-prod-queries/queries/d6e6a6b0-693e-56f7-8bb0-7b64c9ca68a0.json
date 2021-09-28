@@ -1,0 +1,1 @@
+{"query": "query CheckIfOrderExists($id: ID!) {\n  order(id: $id) {\n    id\n    status\n    __typename\n  }\n}\n", "variables": {"id": "T3JkZXI6NDI="}, "operationName": "CheckIfOrderExists", "timesCalled": 2, "createdAt": "2021-09-04 19:14:19.196398+00:00", "updatedAt": "2021-09-04 20:29:01.538889+00:00"}

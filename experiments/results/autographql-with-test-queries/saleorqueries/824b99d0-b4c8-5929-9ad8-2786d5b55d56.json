@@ -1,0 +1,1 @@
+{"query": "\n    mutation pageBulkDelete($ids: [ID]!) {\n        pageBulkDelete(ids: $ids) {\n            count\n        }\n    }\n    ", "variables": {"ids": ["UGFnZTox", "UGFnZToy"]}, "operationName": ""}

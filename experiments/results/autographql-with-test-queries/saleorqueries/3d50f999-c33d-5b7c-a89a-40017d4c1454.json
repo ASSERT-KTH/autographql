@@ -1,0 +1,1 @@
+{"query": "\nmutation draftOrderLinesBulkDelete($ids: [ID]!) {\n    draftOrderLinesBulkDelete(ids: $ids) {\n        count\n        errors {\n            field\n            message\n        }\n    }\n}\n", "variables": {"ids": ["T3JkZXJMaW5lOjcx", "T3JkZXJMaW5lOjcy"]}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "fragment StaffErrorFragment on StaffError {\n  code\n  field\n  __typename\n}\n\nmutation StaffMemberDelete($id: ID!) {\n  staffDelete(id: $id) {\n    errors: staffErrors {\n      ...StaffErrorFragment\n      __typename\n    }\n    __typename\n  }\n}\n", "variables": {"id": "VXNlcjoyMg=="}, "operationName": "StaffMemberDelete"}

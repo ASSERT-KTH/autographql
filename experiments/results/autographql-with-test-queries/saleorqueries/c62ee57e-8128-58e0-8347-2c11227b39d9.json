@@ -1,0 +1,1 @@
+{"query": "\n    query collectionById($collectionId: ID!) {\n        collection(id: $collectionId) {\n            translation(languageCode: PL) {\n                name\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"collectionId": "Q29sbGVjdGlvbjo5Mg=="}, "operationName": ""}

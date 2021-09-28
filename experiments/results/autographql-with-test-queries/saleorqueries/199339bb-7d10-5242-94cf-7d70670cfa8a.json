@@ -1,0 +1,1 @@
+{"query": "\n    mutation variantDelete($id: ID!) {\n        productVariantDelete(id: $id) {\n            productVariant {\n                sku\n                id\n            }\n            }\n        }\n", "variables": {"id": "UHJvZHVjdFZhcmlhbnQ6NzYw"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n        mutation {\n          tokenCreate(email: \"admin@example.com\", password: \"password\") {\n            token\n          }\n        }\n    ", "variables": "", "operationName": ""}

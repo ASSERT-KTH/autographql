@@ -1,0 +1,1 @@
+{"query": "\n    query voucherById($voucherId: ID!) {\n        voucher(id: $voucherId) {\n            translation(languageCode: PL) {\n                name\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"voucherId": "Vm91Y2hlcjozNA=="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation deleteAttribute($id: ID!) {\n        attributeDelete(id: $id) {\n            errors {\n                field\n                message\n            }\n            attribute {\n                id\n            }\n        }\n    }\n    ", "variables": {"id": "QXR0cmlidXRlOjU1MA=="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation updateChoice($id: ID!) {\n        attributeValueDelete(id: $id) {\n            attributeValue {\n                name\n                slug\n            }\n        }\n    }\n    ", "variables": {"id": "QXR0cmlidXRlVmFsdWU6MTAwOA=="}, "operationName": ""}

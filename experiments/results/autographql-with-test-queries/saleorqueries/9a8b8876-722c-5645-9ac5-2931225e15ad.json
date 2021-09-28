@@ -1,0 +1,1 @@
+{"query": "\n    query getValidator(\n        $country_code: CountryCode!) {\n        addressValidationRules(countryCode: $country_code) {\n            requiredFields\n            allowedFields\n        }\n    }\n    ", "variables": {"country_code": "PL"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\nmutation assignWarehouseShippingZone($id: ID!, $shippingZoneIds: [ID!]!) {\n  assignWarehouseShippingZone(id: $id, shippingZoneIds: $shippingZoneIds) {\n    warehouseErrors {\n      field\n      message\n      code\n    }\n  }\n}\n\n", "variables": {"id": "V2FyZWhvdXNlOjE2OTU1MTYyLTI2NDItNDBmZC05YTkxLTdjMmU2OTRiYWU3Yw==", "shippingZoneIds": []}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query ($sort_by: UserSortingInput!) {\n        staffUsers(first:5, sortBy: $sort_by) {\n                edges{\n                    node{\n                        firstName\n                    }\n                }\n            }\n        }\n", "variables": {"sort_by": {"field": "LAST_NAME", "direction": "ASC"}}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query Collection($id: ID!) {\n        collection(id: $id) {\n            isPublished\n        }\n    }\n", "variables": {"id": "Q29sbGVjdGlvbjo3Nw=="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query($nodeID: ID!) {\n        attributes(first: 20, filter: { inCategory: $nodeID }) {\n            edges {\n                node {\n                    id\n                    name\n                    slug\n                }\n            }\n        }\n    }\n    ", "variables": {"nodeID": "Q2F0ZWdvcnk6MjU0"}, "operationName": ""}

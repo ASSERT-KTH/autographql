@@ -1,0 +1,1 @@
+{"query": "\nmutation{\n  tokensDeactivateAll{\n    accountErrors{\n      field\n      message\n      code\n    }\n  }\n}\n\n", "variables": "", "operationName": ""}

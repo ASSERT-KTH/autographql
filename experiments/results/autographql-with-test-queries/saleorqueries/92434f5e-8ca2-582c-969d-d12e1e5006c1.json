@@ -1,0 +1,1 @@
+{"query": "\n        query getProduct($ids: [ID!]) {\n            productVariants(ids: $ids, first: 1) {\n                edges {\n                    node {\n                        id\n                    }\n                }\n            }\n        }\n    ", "variables": {"ids": ["UHJvZHVjdFZhcmlhbnQ6Nzcy"]}, "operationName": ""}

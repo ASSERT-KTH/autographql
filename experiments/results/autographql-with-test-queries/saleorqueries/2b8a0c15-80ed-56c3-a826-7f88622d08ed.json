@@ -1,0 +1,1 @@
+{"query": "\nquery customerEvents($customerId: ID!) {\n  user(id: $customerId) {\n    id\n    events {\n      id\n      type\n      user {\n        id\n      }\n      message\n      count\n      order {\n        id\n      }\n      orderLine {\n        id\n      }\n    }\n  }\n}\n", "variables": {"customerId": "VXNlcjoyNDQ="}, "operationName": ""}

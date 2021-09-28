@@ -1,0 +1,1 @@
+{"query": "\n    query variantAvailability($id: ID!, $country: CountryCode) {\n        productVariant(id: $id) {\n            quantityAvailable(countryCode: $country)\n        }\n    }\n", "variables": {"id": "UHJvZHVjdFZhcmlhbnQ6ODQz", "country": "US"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    {\n        me {\n            email\n            meta {\n                namespace\n                clients {\n                    name\n                    metadata {\n                        key\n                        value\n                    }\n                }\n            }\n        }\n    }\n", "variables": "", "operationName": ""}

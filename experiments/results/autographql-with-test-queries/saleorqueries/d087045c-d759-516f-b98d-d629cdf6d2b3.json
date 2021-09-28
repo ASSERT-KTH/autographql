@@ -1,0 +1,1 @@
+{"query": "\n    mutation AccountDelete($token: String!){\n        accountDelete(token: $token){\n            errors{\n                field\n                message\n            }\n        }\n    }\n", "variables": {"token": "934uo1-8e30e9ec8b9619c9a958a507a02450b3"}, "operationName": ""}

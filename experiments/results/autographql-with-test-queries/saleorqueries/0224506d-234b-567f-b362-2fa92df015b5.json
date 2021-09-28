@@ -1,0 +1,1 @@
+{"query": "\n    query fulfillmentMeta($token: UUID!){\n        orderByToken(token: $token){\n            fulfillments{\n                privateMetadata{\n                    key\n                    value\n                }\n          }\n        }\n    }\n", "variables": {"token": "95b77a35-fd36-485d-a2d9-f5dc5a427fa3"}, "operationName": ""}

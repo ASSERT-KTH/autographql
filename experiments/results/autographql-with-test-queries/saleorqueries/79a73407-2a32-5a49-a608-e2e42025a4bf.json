@@ -1,0 +1,1 @@
+{"query": "\n        query PaymentSources($id: ID!) {\n            user(id: $id) {\n                storedPaymentSources {\n                    creditCardInfo {\n                        firstDigits\n                    }\n                }\n            }\n        }\n    ", "variables": {"id": "VXNlcjo5MTI="}, "operationName": ""}

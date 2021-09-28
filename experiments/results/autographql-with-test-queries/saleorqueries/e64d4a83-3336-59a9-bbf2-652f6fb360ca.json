@@ -1,0 +1,1 @@
+{"query": "\nmutation deleteWarehouse($id: ID!) {\n    deleteWarehouse(id: $id) {\n        warehouseErrors {\n            message\n            field\n            code\n        }\n    }\n}\n", "variables": {"id": "V2FyZWhvdXNlOjA3MDM1ZmMwLWI2MDktNDc3Yi1iZjY5LWZhNDM5OWIxZGM0ZQ=="}, "operationName": ""}

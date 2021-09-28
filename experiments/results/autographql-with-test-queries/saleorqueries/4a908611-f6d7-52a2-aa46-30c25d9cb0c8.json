@@ -1,0 +1,1 @@
+{"query": "\n    query ($id: ID!){\n        productType(\n            id: $id,\n        ) {\n            id\n            name\n            weight {\n                unit\n                value\n            }\n        }\n    }\n    ", "variables": {"id": "UHJvZHVjdFR5cGU6NDIx"}, "operationName": ""}

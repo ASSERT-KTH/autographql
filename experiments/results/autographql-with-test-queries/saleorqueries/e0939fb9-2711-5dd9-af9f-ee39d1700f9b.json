@@ -1,0 +1,1 @@
+{"query": "\nmutation giftCardDeactivate($id: ID!) {\n    giftCardDeactivate(id: $id) {\n        errors {\n            field\n            message\n        }\n        giftCard {\n            isActive\n        }\n    }\n}\n", "variables": {"id": "R2lmdENhcmQ6MTc="}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation orderUpdatePrivateMeta($id: ID!, $input: MetaInput!) {\n        orderUpdatePrivateMeta(id: $id, input: $input){\n            errors {\n                message\n            }\n        }\n    }\n    ", "variables": {"id": "T3JkZXI6NDE4", "input": {"namespace": "test", "clientName": "client1", "key": "foo", "value": "bar"}}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\nquery getCheckoutPayments($token: UUID!) {\n    checkout(token: $token) {\n        availablePaymentGateways {\n            id\n            name\n            config {\n                field\n                value\n            }\n            currencies\n        }\n    }\n}\n", "variables": {"token": "e360e001-14dc-41d4-9560-6ecb9f1646aa"}, "operationName": ""}

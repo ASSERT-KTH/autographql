@@ -1,0 +1,1 @@
+{"query": "\n    mutation SaleUpdate($id: ID!, $value: PositiveDecimal) {\n        saleUpdate(id: $id, input: {value: $value}) {\n            sale {\n                id\n            }\n            errors {\n                field\n                message\n            }\n        }\n    }\n    ", "variables": {"id": "U2FsZToxNDY=", "value": "99"}, "operationName": ""}

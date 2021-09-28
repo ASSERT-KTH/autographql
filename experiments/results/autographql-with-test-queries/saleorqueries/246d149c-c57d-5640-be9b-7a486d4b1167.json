@@ -1,0 +1,1 @@
+{"query": "\nquery variant($id: ID, $sku: String){\n    productVariant(id:$id, sku:$sku){\n        sku\n    }\n}\n", "variables": {"id": "UHJvZHVjdFZhcmlhbnQ6ODY5"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            countries {\n                code\n                vat {\n                    standardRate\n                    reducedRates {\n                        rate\n                        rateType\n                    }\n                }\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

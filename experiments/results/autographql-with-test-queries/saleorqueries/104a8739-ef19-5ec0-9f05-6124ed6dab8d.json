@@ -1,0 +1,1 @@
+{"query": "\n    mutation userChangeActiveStatus($ids: [ID]!, $is_active: Boolean!) {\n        userBulkSetActive(ids: $ids, isActive: $is_active) {\n            count\n            errors {\n                field\n                message\n            }\n        }\n    }\n    ", "variables": "{\"ids\": [\"VXNlcjoyMjg=\"], \"is_active\": False}", "operationName": ""}

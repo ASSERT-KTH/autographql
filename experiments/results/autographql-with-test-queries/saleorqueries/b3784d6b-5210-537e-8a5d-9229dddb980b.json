@@ -1,0 +1,1 @@
+{"query": "\n    mutation AppDeleteFailedInstallation($id: ID!){\n        appDeleteFailedInstallation(id:$id){\n            appErrors{\n                field\n                message\n                code\n                permissions\n            }\n        }\n    }\n", "variables": {"id": "QXBwSW5zdGFsbGF0aW9uOjg="}, "operationName": ""}

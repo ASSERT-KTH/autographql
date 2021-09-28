@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        digitalContent(id:\"RGlnaXRhbENvbnRlbnQ6MTU=\"){\n            id\n        }\n    }\n    ", "variables": "", "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\nquery getCheckout($token: UUID!) {\n  checkout(token: $token) {\n    token\n    giftCards {\n      displayCode\n      currentBalance {\n        amount\n      }\n    }\n  }\n}\n", "variables": {"token": "e17e6af9-84fc-4217-b96a-5f199183b76c"}, "operationName": ""}

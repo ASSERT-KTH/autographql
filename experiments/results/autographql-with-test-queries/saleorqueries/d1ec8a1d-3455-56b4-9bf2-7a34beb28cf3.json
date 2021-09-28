@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            domain {\n                host\n                sslEnabled\n                url\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query Orders($period: ReportingPeriod) {\n        ordersTotal(period: $period) {\n            gross {\n                amount\n                currency\n            }\n            net {\n                currency\n                amount\n            }\n        }\n    }\n    ", "variables": {"period": "TODAY"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    mutation publishManyPages($ids: [ID]!, $is_published: Boolean!) {\n        pageBulkPublish(ids: $ids, isPublished: $is_published) {\n            count\n        }\n    }\n    ", "variables": "{\"ids\": [\"UGFnZToxOA==\", \"UGFnZToxOQ==\", \"UGFnZToyMA==\"], \"is_published\": True}", "operationName": ""}

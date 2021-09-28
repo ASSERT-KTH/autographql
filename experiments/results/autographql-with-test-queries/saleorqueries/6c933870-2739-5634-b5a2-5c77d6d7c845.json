@@ -1,0 +1,1 @@
+{"query": "\n    query OrderQuery($id: ID!) {\n        order(id: $id) {\n            giftCards {\n                displayCode\n                currentBalance {\n                    amount\n                }\n            }\n        }\n    }\n    ", "variables": {"id": "T3JkZXI6MTQ4"}, "operationName": ""}

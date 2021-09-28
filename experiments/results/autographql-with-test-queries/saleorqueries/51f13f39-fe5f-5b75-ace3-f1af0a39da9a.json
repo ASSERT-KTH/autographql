@@ -1,0 +1,1 @@
+{"query": "\n      query ($filter: OrderDraftFilterInput!, ) {\n        draftOrders(first: 5, filter:$filter) {\n          totalCount\n          edges {\n            node {\n              id\n            }\n          }\n        }\n      }\n    ", "variables": {"filter": {"search": 417}}, "operationName": ""}

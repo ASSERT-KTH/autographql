@@ -1,0 +1,1 @@
+{"query": "\n    query($filters: ProductTypeFilterInput) {\n      productTypes(first: 10, filter: $filters) {\n        edges {\n          node {\n            name\n          }\n        }\n      }\n    }\n", "variables": {"filters": {"search": ""}}, "operationName": ""}

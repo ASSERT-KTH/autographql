@@ -1,0 +1,1 @@
+{"query": "\n    mutation digitalDelete($variant: ID!){\n        digitalContentDelete(variantId:$variant){\n            variant{\n              id\n            }\n        }\n    }\n    ", "variables": {"variant": "UHJvZHVjdFZhcmlhbnQ6NTQz"}, "operationName": ""}

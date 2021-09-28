@@ -1,0 +1,1 @@
+{"query": "\n    query ($id: ID!){\n        permissionGroup(id: $id){\n            id\n            name\n            permissions {\n                name\n                code\n            }\n            users{\n                email\n            }\n            userCanManage\n        }\n    }\n    ", "variables": {"id": "R3JvdXA6NTg="}, "operationName": ""}

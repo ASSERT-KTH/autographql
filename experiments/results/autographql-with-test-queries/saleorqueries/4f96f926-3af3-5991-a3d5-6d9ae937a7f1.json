@@ -1,0 +1,1 @@
+{"query": "\n    mutation SaleDelete($id: ID!) {\n        saleDelete(id: $id) {\n            sale {\n                id\n            }\n            errors {\n                field\n                message\n            }\n        }\n    }\n    ", "variables": {"id": "U2FsZToxNDc="}, "operationName": ""}

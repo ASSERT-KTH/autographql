@@ -1,0 +1,1 @@
+{"query": "\n    mutation AppDeactivate($id: ID!){\n      appDeactivate(id:$id){\n        app{\n          id\n          isActive\n        }\n        appErrors{\n          field\n          message\n          code\n        }\n      }\n    }\n", "variables": {"id": "QXBwOjY5"}, "operationName": ""}

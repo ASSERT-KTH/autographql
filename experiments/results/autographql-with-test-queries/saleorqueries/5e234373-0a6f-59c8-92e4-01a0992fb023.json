@@ -1,0 +1,1 @@
+{"query": "\n    mutation attributeValueBulkDelete($ids: [ID]!) {\n        attributeValueBulkDelete(ids: $ids) {\n            count\n        }\n    }\n    ", "variables": {"ids": ["QXR0cmlidXRlVmFsdWU6MTE2MA==", "QXR0cmlidXRlVmFsdWU6MTE2MQ==", "QXR0cmlidXRlVmFsdWU6MTE2Mg=="]}, "operationName": ""}

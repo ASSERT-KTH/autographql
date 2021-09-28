@@ -1,0 +1,1 @@
+{"query": "\n    query pageById($pageId: ID!) {\n        page(id: $pageId) {\n            translation(languageCode: PL) {\n                title\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"pageId": "UGFnZToxMQ=="}, "operationName": ""}

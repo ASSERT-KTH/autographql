@@ -1,0 +1,1 @@
+{"query": "\n    mutation FetchTaxRates {\n        shopFetchTaxRates {\n            errors {\n                field\n                message\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

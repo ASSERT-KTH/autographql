@@ -1,0 +1,1 @@
+{"query": "\n        mutation MenuCreate(\n            $name: String!\n            $slug: String\n        ) {\n            menuCreate(input: { name: $name, slug: $slug}) {\n                menu {\n                    name\n                    slug\n                }\n            }\n        }\n    ", "variables": {"name": "test-menu", "slug": "test-slug"}, "operationName": ""}

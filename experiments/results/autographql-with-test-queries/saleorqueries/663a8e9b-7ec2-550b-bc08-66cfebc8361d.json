@@ -1,0 +1,1 @@
+{"query": "\n    query categoryById($categoryId: ID!) {\n        category(id: $categoryId) {\n            translation(languageCode: PL) {\n                name\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"categoryId": "Q2F0ZWdvcnk6NDky"}, "operationName": ""}

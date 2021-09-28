@@ -1,0 +1,1 @@
+{"query": "\n    query stocks($filter: StockFilterInput!) {\n        stocks(first: 100, filter: $filter) {\n            totalCount\n            edges {\n                node {\n                    id\n                }\n            }\n        }\n    }\n", "variables": {"filter": {"search": "Test product"}}, "operationName": ""}

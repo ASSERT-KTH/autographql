@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        products(first: 1) {\n            totalCount\n            edges {\n                node {\n                    id\n                }\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

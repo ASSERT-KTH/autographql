@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            chargeTaxesOnShipping\n        }\n    }", "variables": "", "operationName": ""}

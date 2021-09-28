@@ -1,0 +1,1 @@
+{"query": "query ProductTypeCreateData {\n  shop {\n    defaultWeightUnit\n    __typename\n  }\n  taxTypes {\n    taxCode\n    description\n    __typename\n  }\n}\n", "variables": {}, "operationName": "ProductTypeCreateData", "timesCalled": 2, "createdAt": "2021-09-04 13:23:43.327775+00:00", "updatedAt": "2021-09-04 20:28:54.426211+00:00"}

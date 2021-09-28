@@ -1,0 +1,1 @@
+{"query": "query AppsInstallations {\n  appsInstallations {\n    status\n    message\n    appName\n    manifestUrl\n    id\n    __typename\n  }\n}\n", "variables": {}, "operationName": "AppsInstallations", "timesCalled": 17, "createdAt": "2021-09-04 13:16:02.491922+00:00", "updatedAt": "2021-09-05 13:36:17.231795+00:00"}

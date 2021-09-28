@@ -1,0 +1,1 @@
+{"query": "\n    query orderMeta($token: UUID!){\n        orderByToken(token: $token){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"token": "cbff5c7c-e887-40b3-81ac-b2822f36aebe"}, "operationName": ""}

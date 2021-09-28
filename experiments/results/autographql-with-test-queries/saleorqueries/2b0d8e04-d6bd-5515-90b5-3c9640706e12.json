@@ -1,0 +1,1 @@
+{"query": "\n        mutation deleteCollection($id: ID!) {\n            collectionDelete(id: $id) {\n                collection {\n                    name\n                }\n            }\n        }\n    ", "variables": {"id": "Q29sbGVjdGlvbjo2MQ=="}, "operationName": ""}

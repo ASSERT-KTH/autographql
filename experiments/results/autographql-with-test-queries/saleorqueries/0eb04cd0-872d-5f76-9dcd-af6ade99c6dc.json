@@ -1,0 +1,1 @@
+{"query": "\n    query Users {\n        customers {\n            totalCount\n        }\n    }\n    ", "variables": "", "operationName": ""}

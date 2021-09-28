@@ -1,0 +1,1 @@
+{"query": "\nquery($_representations: [_Any!]!) {\n  _entities(representations: $_representations) {\n    ... on User {\n      id\n      email\n      isStaff\n    }\n  }\n}\n", "variables": {"_representations": [{"id": "VXNlcjo2ODU=", "__typename": "User"}]}, "operationName": ""}

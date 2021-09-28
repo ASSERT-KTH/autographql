@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop{\n            companyAddress{\n                city\n                streetAddress1\n                postalCode\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

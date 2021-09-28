@@ -1,0 +1,1 @@
+{"query": "\n    query User($id: ID!) {\n        user(id: $id) {\n            email\n        }\n    }\n", "variables": {"id": "VXNlcjo1OA=="}, "operationName": ""}

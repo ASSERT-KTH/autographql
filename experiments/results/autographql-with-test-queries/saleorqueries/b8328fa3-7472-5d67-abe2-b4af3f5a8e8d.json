@@ -1,0 +1,1 @@
+{"query": "\n        mutation homepageCollectionUpdate($collection: ID) {\n            homepageCollectionUpdate(collection: $collection) {\n                shop {\n                    homepageCollection {\n                        id\n                    }\n                }\n            }\n        }\n    ", "variables": {"collection": null}, "operationName": ""}

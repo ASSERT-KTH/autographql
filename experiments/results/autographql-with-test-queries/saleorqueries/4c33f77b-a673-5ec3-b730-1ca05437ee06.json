@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        digitalContents(first:1){\n            edges{\n                node{\n                    id\n                    contentFile\n                }\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

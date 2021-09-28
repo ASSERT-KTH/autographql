@@ -1,0 +1,1 @@
+{"query": "\n        mutation publishManyCollections($ids: [ID]!, $is_published: Boolean!) {\n            collectionBulkPublish(ids: $ids, isPublished: $is_published) {\n                count\n            }\n        }\n    ", "variables": "{\"ids\": [\"Q29sbGVjdGlvbjo3MA==\", \"Q29sbGVjdGlvbjo3MQ==\", \"Q29sbGVjdGlvbjo3Mg==\"], \"is_published\": True}", "operationName": ""}

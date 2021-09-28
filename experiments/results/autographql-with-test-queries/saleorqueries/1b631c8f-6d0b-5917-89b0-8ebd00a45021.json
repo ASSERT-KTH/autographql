@@ -1,0 +1,1 @@
+{"query": "\n    query ($filter: CategoryFilterInput!, ) {\n          categories(first:5, filter: $filter) {\n            totalCount\n            edges{\n              node{\n                id\n                name\n              }\n            }\n          }\n        }\n        ", "variables": {"filter": {"search": "Subcategory_description"}}, "operationName": ""}

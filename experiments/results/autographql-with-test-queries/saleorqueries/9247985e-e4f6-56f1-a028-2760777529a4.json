@@ -1,0 +1,1 @@
+{"query": "\n    query ($id: ID, $name: String, $slug: String){\n        menu(\n            id: $id,\n            name: $name,\n            slug: $slug\n        ) {\n            id\n            name\n            slug\n        }\n    }\n    ", "variables": {"id": "TWVudToxMQ==", "name": "test-navbar"}, "operationName": ""}

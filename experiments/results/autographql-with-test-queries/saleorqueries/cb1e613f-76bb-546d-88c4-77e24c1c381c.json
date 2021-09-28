@@ -1,0 +1,1 @@
+{"query": "\n    query PageQuery($id: ID, $slug: String) {\n        page(id: $id, slug: $slug) {\n            title\n            slug\n        }\n    }\n", "variables": {"id": "UGFnZTo0"}, "operationName": ""}

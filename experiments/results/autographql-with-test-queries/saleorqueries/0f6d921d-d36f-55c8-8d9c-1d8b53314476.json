@@ -1,0 +1,1 @@
+{"query": "\n    query digitalContentMeta($id: ID!){\n        digitalContent(id: $id){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "RGlnaXRhbENvbnRlbnQ6OA=="}, "operationName": ""}

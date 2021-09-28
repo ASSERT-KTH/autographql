@@ -1,0 +1,1 @@
+{"query": "\n    query productById($productId: ID!) {\n        product(id: $productId) {\n            translation(languageCode: PL) {\n                name\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"productId": "UHJvZHVjdDo2MTE="}, "operationName": ""}

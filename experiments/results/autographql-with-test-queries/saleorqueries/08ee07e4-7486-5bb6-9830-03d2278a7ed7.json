@@ -1,0 +1,1 @@
+{"query": "\n    mutation reorderImages($product_id: ID!, $images_ids: [ID]!) {\n        productImageReorder(productId: $product_id, imagesIds: $images_ids) {\n            product {\n                id\n            }\n        }\n    }\n    ", "variables": {"product_id": "UHJvZHVjdDo1ODY=", "images_ids": ["UHJvZHVjdEltYWdlOjEy", "UHJvZHVjdEltYWdlOjEx"]}, "operationName": ""}

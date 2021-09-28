@@ -1,0 +1,1 @@
+{"query": "\n    query webhook($id: ID!){\n      webhook(id: $id){\n        id\n        isActive\n        events{\n          eventType\n        }\n      }\n    }\n", "variables": {"id": "V2ViaG9vazo4OQ=="}, "operationName": ""}

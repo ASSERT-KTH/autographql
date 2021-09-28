@@ -1,0 +1,1 @@
+{"query": "\n    query fetchCollection($collectionId: ID!){\n        collection(id: $collectionId) {\n            name,\n            isPublished\n        }\n    }\n    ", "variables": {"collectionId": "Q29sbGVjdGlvbjo2Nw=="}, "operationName": ""}

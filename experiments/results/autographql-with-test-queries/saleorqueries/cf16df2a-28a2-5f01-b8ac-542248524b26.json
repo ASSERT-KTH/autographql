@@ -1,0 +1,1 @@
+{"query": "\n        query sales {\n            sales(first: 1) {\n                edges {\n                    node {\n                        type\n                        name\n                        value\n                        startDate\n                    }\n                }\n            }\n        }\n        ", "variables": "", "operationName": ""}

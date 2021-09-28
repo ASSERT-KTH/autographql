@@ -1,0 +1,1 @@
+{"query": "\n    query {\n        shop {\n            permissions {\n                code\n                name\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

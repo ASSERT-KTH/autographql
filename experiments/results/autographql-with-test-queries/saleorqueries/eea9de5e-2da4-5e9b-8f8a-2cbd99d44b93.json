@@ -1,0 +1,1 @@
+{"query": "\n    query fetchCollection($id: ID!){\n        collection(id: $id) {\n            name\n            backgroundImage(size: 120) {\n               url\n               alt\n            }\n        }\n    }\n", "variables": {"id": "Q29sbGVjdGlvbjo2NQ=="}, "operationName": ""}

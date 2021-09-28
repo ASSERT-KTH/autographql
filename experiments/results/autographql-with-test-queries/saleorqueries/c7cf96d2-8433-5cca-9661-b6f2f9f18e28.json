@@ -1,0 +1,1 @@
+{"query": "\n    query giftCards{\n        me {\n            giftCards(first: 10) {\n                edges {\n                    node {\n                        id\n                        displayCode\n                        code\n                    }\n                }\n                totalCount\n            }\n        }\n    }\n    ", "variables": "", "operationName": ""}

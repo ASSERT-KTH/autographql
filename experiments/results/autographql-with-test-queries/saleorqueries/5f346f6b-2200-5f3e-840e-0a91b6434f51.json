@@ -1,0 +1,1 @@
+{"query": "\n        {\n          products(first: 10) {\n            edges {\n              node {\n                attributes {\n                  values {\n                    type\n                    inputType\n                  }\n                }\n              }\n            }\n          }\n        }\n    ", "variables": "", "operationName": ""}

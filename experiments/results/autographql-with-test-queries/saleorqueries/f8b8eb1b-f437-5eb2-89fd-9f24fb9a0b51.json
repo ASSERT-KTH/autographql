@@ -1,0 +1,1 @@
+{"query": "\n    query leveled_categories($level: Int) {\n        categories(level: $level, first: 20) {\n            edges {\n                node {\n                    name\n                    parent {\n                        name\n                    }\n                }\n            }\n        }\n    }\n    ", "variables": {"level": 0}, "operationName": ""}

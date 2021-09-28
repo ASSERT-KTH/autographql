@@ -1,0 +1,1 @@
+{"query": "\nmutation AppTokenVerify($token: String!){\n    appTokenVerify(token:$token){\n        valid\n    }\n}\n", "variables": {"token": "VTUMg8SFRZmDVquI6QWpiqyz0QwyDz"}, "operationName": ""}

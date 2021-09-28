@@ -1,0 +1,1 @@
+{"query": "\n    mutation deleteProductType($id: ID!) {\n        productTypeDelete(id: $id) {\n            productType {\n                name\n            }\n        }\n    }\n", "variables": {"id": "UHJvZHVjdFR5cGU6NDk5"}, "operationName": ""}

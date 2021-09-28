@@ -1,0 +1,1 @@
+{"query": "\n    query ($sort_by: OrderSortingInput!) {\n        draftOrders(first:5, sortBy: $sort_by) {\n            edges{\n                node{\n                    number\n                }\n            }\n        }\n    }\n", "variables": {"sort_by": {"field": "NUMBER", "direction": "DESC"}}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query fetchCategory($id: ID!){\n        category(id: $id) {\n            name\n            backgroundImage(size: 120) {\n            url\n            alt\n            }\n        }\n    }\n    ", "variables": {"id": "Q2F0ZWdvcnk6MzM0"}, "operationName": ""}

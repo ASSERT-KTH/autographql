@@ -1,0 +1,1 @@
+{"query": "\n        query fetchAllVariants {\n            productVariants(first: 10) {\n                totalCount\n                edges {\n                    node {\n                        id\n                    }\n                }\n            }\n        }\n    ", "variables": {}, "operationName": ""}

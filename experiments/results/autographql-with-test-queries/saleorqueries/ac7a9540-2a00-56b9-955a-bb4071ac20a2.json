@@ -1,0 +1,1 @@
+{"query": "\n    query OrderByToken($token: UUID!) {\n        orderByToken(token: $token) {\n            invoices {\n                id\n                number\n                externalUrl\n            }\n        }\n    }\n    ", "variables": {"token": "e2d88a1c-8a2b-46d7-a8ea-acf14eea432b"}, "operationName": ""}

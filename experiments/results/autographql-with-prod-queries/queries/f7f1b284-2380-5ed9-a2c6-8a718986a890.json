@@ -1,0 +1,1 @@
+{"query": "query CustomerCreateData {\n  shop {\n    countries {\n      code\n      country\n      __typename\n    }\n    __typename\n  }\n}\n", "variables": {}, "operationName": "CustomerCreateData", "timesCalled": 2, "createdAt": "2021-09-04 19:17:54.612874+00:00", "updatedAt": "2021-09-04 20:29:06.281504+00:00"}

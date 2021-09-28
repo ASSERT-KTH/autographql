@@ -1,0 +1,1 @@
+{"query": "\n    query menuItemById($menuItemId: ID!) {\n        menuItem(id: $menuItemId) {\n            translation(languageCode: PL) {\n                name\n                language {\n                    code\n                }\n            }\n        }\n    }\n    ", "variables": {"menuItemId": "TWVudUl0ZW06Nzk="}, "operationName": ""}

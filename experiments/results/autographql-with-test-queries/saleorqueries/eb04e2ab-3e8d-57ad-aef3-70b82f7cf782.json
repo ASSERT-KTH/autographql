@@ -1,0 +1,1 @@
+{"query": "\n    query checkoutMeta($token: UUID!){\n        checkout(token: $token){\n            privateMetadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"token": "540d44fb-b38b-4671-b276-8f08974dcd01"}, "operationName": ""}

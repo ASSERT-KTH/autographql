@@ -1,0 +1,1 @@
+{"query": "\n    query productImageById($imageId: ID!, $productId: ID!) {\n        product(id: $productId) {\n            imageById(id: $imageId) {\n                id\n                url\n            }\n        }\n    }\n    ", "variables": {"productId": "UHJvZHVjdDo1MTU=", "imageId": "UHJvZHVjdEltYWdlOjc="}, "operationName": ""}

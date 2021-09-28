@@ -1,0 +1,1 @@
+{"query": "\n    mutation tokenRefresh($token: String, $csrf_token: String){\n        tokenRefresh(refreshToken: $token, csrfToken: $csrf_token){\n            token\n            accountErrors{\n              code\n            }\n        }\n    }\n", "variables": {"token": null, "csrf_token": "urUvGN5hmBcX84K6iNhk4GaJ7YQTf3RIeJ1XfCHw1jm108i2yUQ8IKgdDVbvwbYF"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query productTypeMeta($id: ID!){\n        productType(id: $id){\n            privateMetadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "UHJvZHVjdFR5cGU6MTky"}, "operationName": ""}

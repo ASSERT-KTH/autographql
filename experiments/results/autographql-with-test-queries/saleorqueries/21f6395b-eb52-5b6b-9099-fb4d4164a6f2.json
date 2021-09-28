@@ -1,0 +1,1 @@
+{"query": "\n        mutation deleteShippingZone($id: ID!) {\n            shippingZoneDelete(id: $id) {\n                shippingZone {\n                    name\n                }\n            }\n        }\n    ", "variables": {"id": "U2hpcHBpbmdab25lOjQ2MA=="}, "operationName": ""}

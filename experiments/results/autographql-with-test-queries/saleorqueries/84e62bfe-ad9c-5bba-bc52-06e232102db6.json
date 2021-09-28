@@ -1,0 +1,1 @@
+{"query": "\n    {\n      shop {\n        defaultMailSenderName\n        defaultMailSenderAddress\n      }\n    }\n", "variables": "", "operationName": ""}

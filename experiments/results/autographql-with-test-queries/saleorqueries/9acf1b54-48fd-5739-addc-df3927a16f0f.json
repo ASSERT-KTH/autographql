@@ -1,0 +1,1 @@
+{"query": "\nmutation CancelManyOrders($ids: [ID]!) {\n    orderBulkCancel(ids: $ids) {\n        count\n        orderErrors{\n            field\n            code\n        }\n    }\n}\n", "variables": {"ids": ["T3JkZXI6MjQ1", "T3JkZXI6MjQ2", "T3JkZXI6MjQ3", "T3JkZXI6MjQ4"]}, "operationName": ""}

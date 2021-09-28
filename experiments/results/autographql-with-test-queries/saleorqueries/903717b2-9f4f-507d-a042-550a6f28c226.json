@@ -1,0 +1,1 @@
+{"query": "query AppsInstallations {\n  appsInstallations {\n    status\n    message\n    appName\n    manifestUrl\n    id\n    __typename\n  }\n}\n", "variables": {}, "operationName": "AppsInstallations"}

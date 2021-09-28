@@ -1,0 +1,1 @@
+{"query": "\n    mutation serviceAccountDelete($id: ID!){\n      serviceAccountDelete(id: $id){\n        accountErrors{\n          field\n          message\n          code\n        }\n        serviceAccount{\n          name\n        }\n      }\n    }\n", "variables": {"id": "U2VydmljZUFjY291bnQ6MjQ="}, "operationName": ""}

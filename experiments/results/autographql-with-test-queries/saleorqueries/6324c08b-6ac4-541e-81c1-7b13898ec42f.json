@@ -1,0 +1,1 @@
+{"query": "\n        {\n          attributes(first: 10) {\n            edges {\n              node {\n                filterableInDashboard\n              }\n            }\n          }\n        }\n    ", "variables": "", "operationName": ""}

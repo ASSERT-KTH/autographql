@@ -1,0 +1,1 @@
+{"query": "\n    query categoryMeta($id: ID!){\n        category(id: $id){\n            metadata{\n                key\n                value\n            }\n        }\n    }\n", "variables": {"id": "Q2F0ZWdvcnk6MTI0"}, "operationName": ""}

@@ -1,0 +1,1 @@
+{"query": "\n    query giftCard($id: ID!) {\n        giftCard(id: $id){\n            id\n            displayCode\n            user {\n                email\n            }\n        }\n    }\n    ", "variables": {"id": "R2lmdENhcmQ6OA=="}, "operationName": ""}

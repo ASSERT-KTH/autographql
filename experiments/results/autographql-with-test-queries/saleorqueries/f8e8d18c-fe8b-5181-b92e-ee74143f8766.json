@@ -1,0 +1,1 @@
+{"query": "\nquery Collections($sortBy: CollectionSortingInput) {\n  collections(first: 10, sortBy: $sortBy) {\n      edges {\n        node {\n          id\n          publicationDate\n        }\n      }\n  }\n}\n", "variables": {"sortBy": {"direction": "DESC", "field": "PUBLICATION_DATE"}}, "operationName": ""}
