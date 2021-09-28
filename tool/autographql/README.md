@@ -6,7 +6,7 @@
 
 # Experiments with [Saleor](https://github.com/mirumee/saleor)
 
-- Set up saleor logging configurations, [like so](https://github.com/louisezetterlund/saleor-platform)
+- Set up saleor logging configurations, [like so](https://anonymous.4open.science/r/autographql-package/experiments/saleor-platform/README.md)
 - Create a [JWT token](https://docs.saleor.io/docs/2.9.0/api/authenticate/#creating-a-jwt-token) for Saleor
 - Generate and execute workloads! ✨
 
