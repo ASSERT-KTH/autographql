@@ -6,4 +6,4 @@ This is a replication package for our manuscript titled "*Harvesting Production 
   - `analysis/` contains analysis scripts
   - `data/` contains raw data and generated figures
   - `saleor-platform/` contains our open-source case study, extended for query harvesting
-    - `saleor-platform/results/` contains harvested queries and generated tests
+  - `results/` contains harvested queries and generated tests
