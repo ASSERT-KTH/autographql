@@ -1,0 +1,622 @@
+{
+  "@next_dot_components_dot_atoms_dot_AddNewTile_dot_AddNewTile_dot_2493765518": {
+    "string": "Tambah {type} baru"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_214739616": {
+    "string": "Play with <emphasis>GraphQL API</emphasis>"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2367386033": {
+    "string": "API"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2844777114": {
+    "string": "Explore <emphasis>Store’s dashboard</emphasis>"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_3662390044": {
+    "string": "Dashboard"
+  },
+  "@next_dot_components_dot_atoms_dot_DropdownSelect_dot_DropdownSelect_dot_3280510613": {
+    "string": "Urut berdasarkan:"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountMenuMobile_dot_AccountMenuMobile_dot_2132071990": {
+    "string": "Go to"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_AccountTile_dot_3253048083": {
+    "string": "Detail personal"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_AccountTile_dot_3843483622": {
+    "string": "DATAKU"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_1254879564": {
+    "string": "Kata Sandi Baru"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2218114941": {
+    "string": "Kata Sandi Lama"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2369435044": {
+    "string": "Bidang yang harus diisi"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2799926859": {
+    "string": "Konfirmasi Kata Sandi"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_4253911811": {
+    "string": "Kata sandi tidak cocok"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordTile_dot_3445609170": {
+    "string": "KATA SANDIKU"
+  },
+  "@next_dot_components_dot_molecules_dot_AddToCartButton_dot_AddToCartButton_dot_81047562": {
+    "string": "Tambah ke keranjang"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_1224809208": {
+    "string": "Alamat Utama"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_1578192486": {
+    "string": "Alamat Penagihan Utama"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_2131178753": {
+    "string": "Atur sebagai alamat pengiriman utama"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_3096438859": {
+    "string": "Atur sebagai alamat penagihan utama"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_4109348993": {
+    "string": "Alamat Pengiriman Utama"
+  },
+  "@next_dot_components_dot_molecules_dot_AttributeValuesChecklist_dot_AttributeValuesChecklist_dot_2029012727": {
+    "string": "TAMPILKAN SELURUH OPSI"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_1148029984": {
+    "string": "Nominal"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_1633831221": {
+    "string": "Tanggal Pesanan"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_2387666633": {
+    "string": "Nomor Indeks"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_724329054": {
+    "string": "Produk Dipesan"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductDescription_dot_ProductDescription_dot_2623707255": {
+    "string": "DESKRIPSI"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductDescription_dot_ProductDescription_dot_308156425": {
+    "string": "ATRIBUT"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductListHeader_dot_ProductListHeader_dot_3317426832": {
+    "string": "Produk ditemukan:"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_1865992141": {
+    "string": "Harap berikan kata sandi baru"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_2266763214": {
+    "string": "Ketik ulang kata sandi"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_2746979176": {
+    "string": "Sepertinya token untuk pengaturan ulang kata sandi sudah tidak valid lagi."
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_3951836694": {
+    "string": "ATUR KATA SANDI BARU"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_4028609483": {
+    "string": "Atur ulang kata sandimu"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_1139500589": {
+    "string": "Negara"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_1363074570": {
+    "string": "Alamat baris 1"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_253031977": {
+    "string": "Kota"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_2796540622": {
+    "string": "Kode Pos"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_2950411968": {
+    "string": "Nama Perusahaan (Opsional)"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_3121963259": {
+    "string": "Alamat baris 2"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_404705399": {
+    "string": "Provinsi"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressGridSelector_dot_AddressGridSelector_dot_2132027491": {
+    "string": "Alamat"
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_cancelled": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment was cancelled."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_error": {
+    "context": "Adyen payment gateway error",
+    "string": "Error processing payment occured."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_general": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment confirmation went wrong."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_refused": {
+    "context": "Adyen payment gateway error",
+    "string": "The payment was refused. Try the payment again using a different payment method or card."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_cannotHandlePaymentConfirmation": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment gateway did not provide payment confirmation handler."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_invalidPaymentSubmission": {
+    "context": "Adyen payment gateway error",
+    "string": "Invalid payment submission."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentMalformedConfirmationData": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment needs confirmation but data required for confirmation received from the server is malformed."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentNoConfirmationData": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment needs confirmation but data required for confirmation not received from the server."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_unknownPayment": {
+    "context": "Adyen payment gateway error",
+    "string": "Unknown payment submission error occured."
+  },
+  "@next_dot_components_dot_organisms_dot_CartSummary_dot_CartSummary_dot_2088494495": {
+    "string": "Ringkasan Keranjang"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutAddress_dot_CheckoutAddress_dot_3912924864": {
+    "string": "Sama seperti alamat pengiriman"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutPayment_dot_CheckoutPayment_dot_3382401165": {
+    "string": "Apakah kamu memiliki voucher atau kode diskon?"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_348821000": {
+    "string": "Metode Pembayaran"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_3577164776": {
+    "string": "Metode Pengiriman"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_4282475982": {
+    "string": "Alamat Penagihan"
+  },
+  "@next_dot_components_dot_organisms_dot_DiscountForm_dot_DiscountForm_dot_3476123": {
+    "string": "Apply"
+  },
+  "@next_dot_components_dot_organisms_dot_ProductList_dot_ProductList_dot_2783099424": {
+    "string": "Lainnya +"
+  },
+  "@next_dot_components_dot_organisms_dot_ProductVariantPicker_dot_ProductVariantAttributeSelect_dot_1125254976": {
+    "string": "Silakan pilih {selectLabel}"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_1995277831": {
+    "string": "Terima kasih"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_2116351823": {
+    "string": "atas pesananmu!"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_2999163789": {
+    "string": "Nomor pesananmu adalah"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3364990704": {
+    "string": "We’ve emailed you an order confirmation, and we’ll notify you when the order has been shipped."
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3752098833": {
+    "string": "DETAIL PESANAN"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_2488840083": {
+    "string": "terlihat kosong"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_2896212356": {
+    "string": "Mungkin kamu belum menentukan pilihan"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_3578601618": {
+    "string": "Keranjang"
+  },
+  "@next_dot_pages_dot_CartPage_dot_CartPage_dot_1304869656": {
+    "string": "LANJUTKAN KE CHECKOUT"
+  },
+  "@next_dot_pages_dot_CartPage_dot_CartPage_dot_3173718889": {
+    "string": "Keranjangku"
+  },
+  "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_2558335134": {
+    "string": "Please provide billing address."
+  },
+  "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_929802659": {
+    "string": "Harap berikan alamat pengiriman."
+  },
+  "@next_dot_pages_dot_OrdersHistory_dot_OrdersHistory_dot_1138265409": {
+    "string": "Load more"
+  },
+  "account_dot_AddressBook_dot_AddressBook_dot_2776756156": {
+    "string": "Edit alamat"
+  },
+  "app_dot_Notifications_dot_1053546789": {
+    "string": "Untuk meng-update aplikasi ke versi terbaru, silakan refresh halaman!"
+  },
+  "app_dot_Notifications_dot_1308518649": {
+    "string": "Refresh"
+  },
+  "app_dot_Notifications_dot_1917823234": {
+    "string": "Kamu sekarang masuk"
+  },
+  "app_dot_Notifications_dot_2378877294": {
+    "string": "Kamu sekarang keluar"
+  },
+  "app_dot_Notifications_dot_795565": {
+    "string": "Versi terbaru telah tersedia!"
+  },
+  "components_dot_Breadcrumbs_dot_index_dot_1347475195": {
+    "string": "Kembali"
+  },
+  "components_dot_CartTable_dot_Table_dot_1603950169": {
+    "string": "Biaya Pengiriman"
+  },
+  "components_dot_CartTable_dot_Table_dot_2179891060": {
+    "string": "Total Biaya"
+  },
+  "components_dot_CartTable_dot_Table_dot_2875988277": {
+    "string": "Diskon: {discountName}"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_1006283488": {
+    "string": "Lanjutkan sebagai tamu"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_2132450234": {
+    "string": "buat akun"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_3896074202": {
+    "string": "atau kamu dapat"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_647198093": {
+    "string": "Jika kamu tidak ingin mendaftarkan akun, tidak usah khawatir. Kamu dapat checkout sebagai tamu. Kami peduli padamu sama seperti pengguna terdaftar lainnya."
+  },
+  "components_dot_CheckoutLogin_dot_SignInForm_dot_2856837597": {
+    "string": "Penguna terdaftar"
+  },
+  "components_dot_LoginForm_dot_index_dot_1405865627": {
+    "string": "Masuk"
+  },
+  "components_dot_MainMenu_dot_MainMenu_dot_4144939532": {
+    "string": "Offline"
+  },
+  "components_dot_NotFound_dot_index_dot_1723676032": {
+    "string": "Back to home"
+  },
+  "components_dot_NotFound_dot_index_dot_1782529840": {
+    "string": "You may have mistyped the address or the page may have moved."
+  },
+  "components_dot_NotFound_dot_index_dot_3141549744": {
+    "string": "We’re sorry for the error and hope you’ll have a good day."
+  },
+  "components_dot_NotFound_dot_index_dot_3478767873": {
+    "string": "404"
+  },
+  "components_dot_NotFound_dot_index_dot_680965574": {
+    "string": "We can’t seem to find a page you are looking for!"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1316031908": {
+    "string": "Keranjangku,"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1397761112": {
+    "context": "items quantity in cart",
+    "string": "{itemsQuantity,plural,one {{itemsQuantity} item} other {{itemsQuantity} items}}"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_2426849470": {
+    "string": "Pergi ke keranjangku"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_3515754810": {
+    "string": "Lanjutkan Belanja"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_4121934554": {
+    "string": "Kamu belum menambahkan apapun ke keranjangmu. Kami yakin kamu akan menemukan sesuatu di toko kami."
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_966560142": {
+    "string": "Keranjangmu kosong"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_ProductList_dot_3897981513": {
+    "string": "Qty: {quantity}"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_ForgottenPassword_dot_1214263298": {
+    "string": "Kamu lupa kata sandi?"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_ForgottenPassword_dot_1781368875": {
+    "string": "Klik Disini"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_2556234295": {
+    "string": "Daftar"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_2622394113": {
+    "string": "Silakan cek email kamu untuk instruksi lebih lanjut"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_590842025": {
+    "string": "Pengguna baru telah dibuat"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_282922692": {
+    "string": "Akun saleor"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_3254057623": {
+    "string": "Daftar akun baru"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_3293735236": {
+    "string": "Masuk ke akun"
+  },
+  "components_dot_OverlayManager_dot_Password_dot_index_dot_4028609483": {
+    "string": "Atur ulang kata sandimu"
+  },
+  "components_dot_OverlayManager_dot_Search_dot_NothingFound_dot_1777769494": {
+    "string": "Jangan menyerah - periksa ejaannya, pikirkan sesuatu yang kurang spesifik dan gunakan bilah pencarian di atas."
+  },
+  "components_dot_OverlayManager_dot_Search_dot_NothingFound_dot_3166222023": {
+    "string": "Maaf, tapi kami tidak dapat menemukan hasil pencarian untuk: {search}"
+  },
+  "components_dot_OverlayManager_dot_Search_dot_Search_dot_4112727608": {
+    "string": "Tampilkan semua hasil"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_1587628595": {
+    "string": "Check your inbox"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_2925394684": {
+    "string": "Atur ulang kata sandi"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_805890313": {
+    "string": "Please provide us your email address so we can share you a link to reset your password"
+  },
+  "components_dot_Select_dot_SelectOptionsList_dot_1394135378": {
+    "string": "No Options"
+  },
+  "intl_dot_checkoutMessages_dot_addNewAddress": {
+    "string": "Tambah alamat baru"
+  },
+  "intl_dot_checkoutMessages_dot_addressNextActionName": {
+    "string": "Lanjutkan ke Pengiriman"
+  },
+  "intl_dot_checkoutMessages_dot_billingAddress": {
+    "string": "ALAMAT PENAGIHAN"
+  },
+  "intl_dot_checkoutMessages_dot_continueShopping": {
+    "string": "LANJUTKAN BELANJA"
+  },
+  "intl_dot_checkoutMessages_dot_paymentMethod": {
+    "string": "METODE PEMBAYARAN"
+  },
+  "intl_dot_checkoutMessages_dot_paymentNextActionName": {
+    "string": "Lanjut ke Tinjauan"
+  },
+  "intl_dot_checkoutMessages_dot_reviewNextActionName": {
+    "string": "Tempatkan pesanan"
+  },
+  "intl_dot_checkoutMessages_dot_reviewOrder": {
+    "string": "TINJAUAN PESANAN"
+  },
+  "intl_dot_checkoutMessages_dot_shippingAddress": {
+    "string": "Alamat Pengiriman"
+  },
+  "intl_dot_checkoutMessages_dot_shippingMethod": {
+    "string": "METODE PENGIRIMAN"
+  },
+  "intl_dot_checkoutMessages_dot_shippingNextActionName": {
+    "string": "Lanjut ke Pembayaran"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameAddress": {
+    "string": "Alamat"
+  },
+  "intl_dot_checkoutMessages_dot_stepNamePayment": {
+    "string": "Pembayaran"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameReview": {
+    "string": "Tinjauan"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameShipping": {
+    "string": "Pengiriman"
+  },
+  "intl_dot_commonMessages_dot_account": {
+    "string": "Akun"
+  },
+  "intl_dot_commonMessages_dot_add": {
+    "string": "Tambah"
+  },
+  "intl_dot_commonMessages_dot_addressBook": {
+    "string": "Buku alamat"
+  },
+  "intl_dot_commonMessages_dot_cancel": {
+    "string": "Batal"
+  },
+  "intl_dot_commonMessages_dot_checkout": {
+    "string": "Checkout"
+  },
+  "intl_dot_commonMessages_dot_choosePaymentMethod": {
+    "string": "Please choose payment method."
+  },
+  "intl_dot_commonMessages_dot_clearFilterHeader": {
+    "string": "BERSIHKAN FILTER"
+  },
+  "intl_dot_commonMessages_dot_eMail": {
+    "string": "Alamat Email"
+  },
+  "intl_dot_commonMessages_dot_filterHeader": {
+    "string": "FILTER"
+  },
+  "intl_dot_commonMessages_dot_firstName": {
+    "string": "Nama Depan"
+  },
+  "intl_dot_commonMessages_dot_home": {
+    "string": "Beranda"
+  },
+  "intl_dot_commonMessages_dot_lastName": {
+    "string": "Nama Belakang"
+  },
+  "intl_dot_commonMessages_dot_loading": {
+    "string": "Memuat"
+  },
+  "intl_dot_commonMessages_dot_logOut": {
+    "string": "Keluar"
+  },
+  "intl_dot_commonMessages_dot_lowStock": {
+    "string": "Stok tinggal sedikit"
+  },
+  "intl_dot_commonMessages_dot_maxQtyIs": {
+    "string": "Kuantitas maksimumnya {maxQuantity}"
+  },
+  "intl_dot_commonMessages_dot_myAccount": {
+    "string": "Akunku"
+  },
+  "intl_dot_commonMessages_dot_noItemsAvailable": {
+    "string": "No items available"
+  },
+  "intl_dot_commonMessages_dot_noPurchaseAvailable": {
+    "string": "Not available for purchase"
+  },
+  "intl_dot_commonMessages_dot_orderHistory": {
+    "string": "Riwayat pesanan"
+  },
+  "intl_dot_commonMessages_dot_outOfStock": {
+    "string": "Habis"
+  },
+  "intl_dot_commonMessages_dot_password": {
+    "string": "Kata sandi"
+  },
+  "intl_dot_commonMessages_dot_phone": {
+    "string": "Telepon"
+  },
+  "intl_dot_commonMessages_dot_phoneNumber": {
+    "string": "Nomor telepon: {phone}"
+  },
+  "intl_dot_commonMessages_dot_price": {
+    "string": "Harga"
+  },
+  "intl_dot_commonMessages_dot_products": {
+    "string": "Daftar produk"
+  },
+  "intl_dot_commonMessages_dot_promoCode": {
+    "string": "Kode Promo"
+  },
+  "intl_dot_commonMessages_dot_provideEmailAddress": {
+    "string": "Harap berikan alamat email."
+  },
+  "intl_dot_commonMessages_dot_purchaseAvailableOn": {
+    "string": "Will become available for purchase on {date} at {time}"
+  },
+  "intl_dot_commonMessages_dot_qty": {
+    "string": "Jumlah"
+  },
+  "intl_dot_commonMessages_dot_quantity": {
+    "string": "Jumlah"
+  },
+  "intl_dot_commonMessages_dot_save": {
+    "string": "Simpan"
+  },
+  "intl_dot_commonMessages_dot_search": {
+    "string": "cari"
+  },
+  "intl_dot_commonMessages_dot_shipping": {
+    "string": "Pengiriman"
+  },
+  "intl_dot_commonMessages_dot_shortEmail": {
+    "string": "Email"
+  },
+  "intl_dot_commonMessages_dot_showEmail": {
+    "string": "Email: {email}"
+  },
+  "intl_dot_commonMessages_dot_sku": {
+    "string": "SKU"
+  },
+  "intl_dot_commonMessages_dot_status": {
+    "string": "Status"
+  },
+  "intl_dot_commonMessages_dot_subtotal": {
+    "string": "Subtotal"
+  },
+  "intl_dot_commonMessages_dot_total": {
+    "string": "Total"
+  },
+  "intl_dot_commonMessages_dot_totalPrice": {
+    "string": "Total Harga:"
+  },
+  "intl_dot_commonMessages_dot_variant": {
+    "string": "Variasi"
+  },
+  "intl_dot_commonMessages_dot_youMightLike": {
+    "string": "You might like"
+  },
+  "intl_dot_orderStatusMessages_dot_canceled": {
+    "string": "Dibatalkan"
+  },
+  "intl_dot_orderStatusMessages_dot_draft": {
+    "string": "Draf"
+  },
+  "intl_dot_orderStatusMessages_dot_fulfilled": {
+    "string": "Terpenuhi"
+  },
+  "intl_dot_orderStatusMessages_dot_partiallyFulfilled": {
+    "string": "Sebagian terpenuhi"
+  },
+  "intl_dot_orderStatusMessages_dot_unfulfilled": {
+    "string": "Tidak terpenuhi"
+  },
+  "intl_dot_paymentStatusMessages_dot_fullyCharged": {
+    "string": "Dibebankan sepenuhnya"
+  },
+  "intl_dot_paymentStatusMessages_dot_fullyRefunded": {
+    "string": "Pengembalian dana sepenuhnya"
+  },
+  "intl_dot_paymentStatusMessages_dot_notCharged": {
+    "string": "Tidak dikenakan biaya"
+  },
+  "intl_dot_paymentStatusMessages_dot_partiallyCharged": {
+    "string": "Dibebankan sebagian"
+  },
+  "intl_dot_paymentStatusMessages_dot_partiallyRefunded": {
+    "string": "Dikembalikan sebagian"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsClear": {
+    "string": "Bersihkan..."
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsName": {
+    "string": "Nama A-Z"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsNameDsc": {
+    "string": "Nama Z-A"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsPrice": {
+    "string": "Harga Rendah-Tinggi"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsPriceDsc": {
+    "string": "Harga Tinggi-Rendah"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsUpdatedAt": {
+    "string": "Terakhir diubah Ascending"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsUpdatedAtDsc": {
+    "string": "Terakhir diubah Descending"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_1857586798": {
+    "string": "Your order no.: {orderNum}"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_2670827143": {
+    "context": "action in popup menu in order view",
+    "string": "Download invoice"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_624688748": {
+    "string": "Kembali ke Riwayat Pesanan"
+  },
+  "views_dot_Home_dot_Page_dot_2366307429": {
+    "string": "Reduksi akhir"
+  },
+  "views_dot_Home_dot_Page_dot_2812648978": {
+    "string": "Unggulan"
+  },
+  "views_dot_Home_dot_Page_dot_3347022999": {
+    "string": "Obral toko"
+  },
+  "views_dot_Home_dot_Page_dot_3813745889": {
+    "string": "Belanja berdasarkan kategori"
+  },
+  "views_dot_Home_dot_Page_dot_4153800196": {
+    "string": "Diskon hingga 70%"
+  },
+  "views_dot_Product_dot_Other_dot_3212906417": {
+    "string": "Produk lainnya dalam kategori ini"
+  },
+  "views_dot_Search_dot_Page_dot_2865432515": {
+    "string": "Kata pencarian:"
+  }
+}

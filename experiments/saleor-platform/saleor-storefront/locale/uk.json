@@ -1,0 +1,622 @@
+{
+  "@next_dot_components_dot_atoms_dot_AddNewTile_dot_AddNewTile_dot_2493765518": {
+    "string": "Додати новий  {type}"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_214739616": {
+    "string": "Play with <emphasis>GraphQL API</emphasis>"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2367386033": {
+    "string": "API"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_2844777114": {
+    "string": "Explore <emphasis>Store’s dashboard</emphasis>"
+  },
+  "@next_dot_components_dot_atoms_dot_DemoBanner_dot_DemoBanner_dot_3662390044": {
+    "string": "Центр керування "
+  },
+  "@next_dot_components_dot_atoms_dot_DropdownSelect_dot_DropdownSelect_dot_3280510613": {
+    "string": "Сортувати за:"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountMenuMobile_dot_AccountMenuMobile_dot_2132071990": {
+    "string": "Go to"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_AccountTile_dot_3253048083": {
+    "string": "Особиста інформація"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_AccountTile_dot_3843483622": {
+    "string": "МОЇ ДАНІ"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_1254879564": {
+    "string": "Новий пароль"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2218114941": {
+    "string": "Старий пароль"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2369435044": {
+    "string": "Обов'язкове поле"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_2799926859": {
+    "string": "Підтвердіть пароль"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordChangeForm_dot_4253911811": {
+    "string": "Паролі не збігаються"
+  },
+  "@next_dot_components_dot_molecules_dot_AccountTabTiles_dot_PasswordTile_dot_3445609170": {
+    "string": "МІЙ ПАРОЛЬ"
+  },
+  "@next_dot_components_dot_molecules_dot_AddToCartButton_dot_AddToCartButton_dot_81047562": {
+    "string": "Додати в кошик"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_1224809208": {
+    "string": "Адреса за замовчуванням"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_1578192486": {
+    "string": "Платіжна адреса за замовчуванням"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_2131178753": {
+    "string": "Встановити як адресу доставки за замовчуванням"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_3096438859": {
+    "string": "Встановити як платіжну адресу за замовчуванням"
+  },
+  "@next_dot_components_dot_molecules_dot_AddressTile_dot_AddressTile_dot_4109348993": {
+    "string": "Адреса доставки за замовчуванням"
+  },
+  "@next_dot_components_dot_molecules_dot_AttributeValuesChecklist_dot_AttributeValuesChecklist_dot_2029012727": {
+    "string": "ПОДИВИТИСЬ ВСІ ОПЦІЇ"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_1148029984": {
+    "string": "Значення"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_1633831221": {
+    "string": "Дата замовлення"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_2387666633": {
+    "string": "Номер індексу"
+  },
+  "@next_dot_components_dot_molecules_dot_OrderTabel_dot_OrderTabel_dot_724329054": {
+    "string": "Замовлені товари"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductDescription_dot_ProductDescription_dot_2623707255": {
+    "string": "ОПИС"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductDescription_dot_ProductDescription_dot_308156425": {
+    "string": "ХАРАКТЕРИСТИКИ"
+  },
+  "@next_dot_components_dot_molecules_dot_ProductListHeader_dot_ProductListHeader_dot_3317426832": {
+    "string": "Знайдено товарів:"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_1865992141": {
+    "string": "Введіть новий пароль"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_2266763214": {
+    "string": "Повторний пароль"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_2746979176": {
+    "string": "Здається, токен для скидання пароля вже не дійсний."
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_3951836694": {
+    "string": "ВСТАНОВИТИ НОВИЙ ПАРОЛЬ"
+  },
+  "@next_dot_components_dot_molecules_dot_ResetPasswordForm_dot_ResetPasswordForm_dot_4028609483": {
+    "string": "Скинути пароль"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_1139500589": {
+    "string": "Країна"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_1363074570": {
+    "string": "Адреса 1"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_253031977": {
+    "string": "Місто"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_2796540622": {
+    "string": "Поштовий індекс"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_2950411968": {
+    "string": "Назва компанії (за бажанням)"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_3121963259": {
+    "string": "Адреса 2"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressForm_dot_AddressFormContent_dot_404705399": {
+    "string": "Область"
+  },
+  "@next_dot_components_dot_organisms_dot_AddressGridSelector_dot_AddressGridSelector_dot_2132027491": {
+    "string": "адреса"
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_cancelled": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment was cancelled."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_error": {
+    "context": "Adyen payment gateway error",
+    "string": "Error processing payment occured."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_general": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment confirmation went wrong."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenConfirmationErrorMessages_dot_refused": {
+    "context": "Adyen payment gateway error",
+    "string": "The payment was refused. Try the payment again using a different payment method or card."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_cannotHandlePaymentConfirmation": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment gateway did not provide payment confirmation handler."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_invalidPaymentSubmission": {
+    "context": "Adyen payment gateway error",
+    "string": "Invalid payment submission."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentMalformedConfirmationData": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment needs confirmation but data required for confirmation received from the server is malformed."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_paymentNoConfirmationData": {
+    "context": "Adyen payment gateway error",
+    "string": "Payment needs confirmation but data required for confirmation not received from the server."
+  },
+  "@next_dot_components_dot_organisms_dot_AdyenPaymentGateway_dot_AdyenPaymentGateway_dot_adyenErrorMessages_dot_unknownPayment": {
+    "context": "Adyen payment gateway error",
+    "string": "Unknown payment submission error occured."
+  },
+  "@next_dot_components_dot_organisms_dot_CartSummary_dot_CartSummary_dot_2088494495": {
+    "string": "Товари у кошику"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutAddress_dot_CheckoutAddress_dot_3912924864": {
+    "string": "Те саме, що адреса доставки"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutPayment_dot_CheckoutPayment_dot_3382401165": {
+    "string": "У вас є ваучер на подарункові картки або код знижки?"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_348821000": {
+    "string": "Спосіб оплати"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_3577164776": {
+    "string": "Метод доставки"
+  },
+  "@next_dot_components_dot_organisms_dot_CheckoutReview_dot_CheckoutReview_dot_4282475982": {
+    "string": "Адреса виставлення рахунку"
+  },
+  "@next_dot_components_dot_organisms_dot_DiscountForm_dot_DiscountForm_dot_3476123": {
+    "string": "Apply"
+  },
+  "@next_dot_components_dot_organisms_dot_ProductList_dot_ProductList_dot_2783099424": {
+    "string": "Більше +"
+  },
+  "@next_dot_components_dot_organisms_dot_ProductVariantPicker_dot_ProductVariantAttributeSelect_dot_1125254976": {
+    "string": "Будь ласка, оберіть {selectLabel}"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_1995277831": {
+    "string": "Дякую"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_2116351823": {
+    "string": "для вашого замовлення!"
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_2999163789": {
+    "string": "Номер вашого замовлення - "
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3364990704": {
+    "string": "We’ve emailed you an order confirmation, and we’ll notify you when the order has been shipped."
+  },
+  "@next_dot_components_dot_organisms_dot_ThankYou_dot_ThankYou_dot_3752098833": {
+    "string": "ДЕТАЛІ ЗАМОВЛЕННЯ"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_2488840083": {
+    "string": "виглядає порожнім"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_2896212356": {
+    "string": "Можливо, ви ще не зробили свій вибір"
+  },
+  "@next_dot_components_dot_templates_dot_CartEmpty_dot_CartEmpty_dot_3578601618": {
+    "string": "Ваш кошик"
+  },
+  "@next_dot_pages_dot_CartPage_dot_CartPage_dot_1304869656": {
+    "string": "ПЕРЕЙТИ ДО ОФОРМЛЕННЯ ЗАМОВЛЕННЯ"
+  },
+  "@next_dot_pages_dot_CartPage_dot_CartPage_dot_3173718889": {
+    "string": "Кошик"
+  },
+  "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_2558335134": {
+    "string": "Please provide billing address."
+  },
+  "@next_dot_pages_dot_CheckoutPage_dot_subpages_dot_CheckoutAddressSubpage_dot_929802659": {
+    "string": "Введіть адресу доставки."
+  },
+  "@next_dot_pages_dot_OrdersHistory_dot_OrdersHistory_dot_1138265409": {
+    "string": "Load more"
+  },
+  "account_dot_AddressBook_dot_AddressBook_dot_2776756156": {
+    "string": "Редагувати адресу"
+  },
+  "app_dot_Notifications_dot_1053546789": {
+    "string": "Щоб оновити програму до останньої версії, оновіть сторінку!"
+  },
+  "app_dot_Notifications_dot_1308518649": {
+    "string": "Оновити"
+  },
+  "app_dot_Notifications_dot_1917823234": {
+    "string": "Ви ввійшли в систему"
+  },
+  "app_dot_Notifications_dot_2378877294": {
+    "string": "Ви вийшли з системи"
+  },
+  "app_dot_Notifications_dot_795565": {
+    "string": "Нова версія доступна!"
+  },
+  "components_dot_Breadcrumbs_dot_index_dot_1347475195": {
+    "string": "Назад"
+  },
+  "components_dot_CartTable_dot_Table_dot_1603950169": {
+    "string": "Вартість доставки"
+  },
+  "components_dot_CartTable_dot_Table_dot_2179891060": {
+    "string": "Загальна вартість"
+  },
+  "components_dot_CartTable_dot_Table_dot_2875988277": {
+    "string": "Знижка: {discountName}"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_1006283488": {
+    "string": "Продовжити як гість"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_2132450234": {
+    "string": "створити акаунт"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_3896074202": {
+    "string": "або ви можете"
+  },
+  "components_dot_CheckoutLogin_dot_CheckoutAsGuest_dot_647198093": {
+    "string": "Якщо ви не хочете зареєструвати акаунт, не хвилюйтеся. Оформити замовлення можна як гість. Ми дбаємо про вас так само, як і про будь-якого зареєстрованого користувача."
+  },
+  "components_dot_CheckoutLogin_dot_SignInForm_dot_2856837597": {
+    "string": "Зареєстрований користувач"
+  },
+  "components_dot_LoginForm_dot_index_dot_1405865627": {
+    "string": "Увійти"
+  },
+  "components_dot_MainMenu_dot_MainMenu_dot_4144939532": {
+    "string": "Offline"
+  },
+  "components_dot_NotFound_dot_index_dot_1723676032": {
+    "string": "Повернутися на головну"
+  },
+  "components_dot_NotFound_dot_index_dot_1782529840": {
+    "string": "You may have mistyped the address or the page may have moved."
+  },
+  "components_dot_NotFound_dot_index_dot_3141549744": {
+    "string": "We’re sorry for the error and hope you’ll have a good day."
+  },
+  "components_dot_NotFound_dot_index_dot_3478767873": {
+    "string": "404"
+  },
+  "components_dot_NotFound_dot_index_dot_680965574": {
+    "string": "We can’t seem to find a page you are looking for!"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1316031908": {
+    "string": "Мій кошик,"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_1397761112": {
+    "context": "items quantity in cart",
+    "string": "{itemsQuantity,plural,one {{itemsQuantity} item} other {{itemsQuantity} items}}"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Cart_dot_2426849470": {
+    "string": "Перейти до кошика"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_3515754810": {
+    "string": "Продовжити покупки"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_4121934554": {
+    "string": "Ви нічого не додали до свого кошика. Ми впевнені, що ви знайдете щось у нашому магазині"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_Empty_dot_966560142": {
+    "string": "Ваш кошик порожній"
+  },
+  "components_dot_OverlayManager_dot_Cart_dot_ProductList_dot_3897981513": {
+    "string": "Кількість: {quantity}"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_ForgottenPassword_dot_1214263298": {
+    "string": "Ви забули свій пароль?"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_ForgottenPassword_dot_1781368875": {
+    "string": "Натисніть тут"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_2556234295": {
+    "string": "Зареєструватися"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_2622394113": {
+    "string": "Будь ласка, перевірте свою електронну пошту для отримання додаткових інструкцій"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_RegisterForm_dot_590842025": {
+    "string": "Створено нового користувача"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_282922692": {
+    "string": "Saleor акаунт"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_3254057623": {
+    "string": "Зареєструвати новий акаунт"
+  },
+  "components_dot_OverlayManager_dot_Login_dot_index_dot_3293735236": {
+    "string": "Увійдіть до акаунту"
+  },
+  "components_dot_OverlayManager_dot_Password_dot_index_dot_4028609483": {
+    "string": "Скинути пароль"
+  },
+  "components_dot_OverlayManager_dot_Search_dot_NothingFound_dot_1777769494": {
+    "string": "Не здавайтеся - перевіряйте правопис, придумайте щось менш конкретне, а потім використовуйте рядок пошуку вгорі."
+  },
+  "components_dot_OverlayManager_dot_Search_dot_NothingFound_dot_3166222023": {
+    "string": "Вибачте, але ми не змогли зіставити жоден результат пошуку для: {search}"
+  },
+  "components_dot_OverlayManager_dot_Search_dot_Search_dot_4112727608": {
+    "string": "Показати всі результати"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_1587628595": {
+    "string": "Check your inbox"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_2925394684": {
+    "string": "Скинути пароль"
+  },
+  "components_dot_PasswordResetRequestForm_dot_index_dot_805890313": {
+    "string": "Please provide us your email address so we can share you a link to reset your password"
+  },
+  "components_dot_Select_dot_SelectOptionsList_dot_1394135378": {
+    "string": "No Options"
+  },
+  "intl_dot_checkoutMessages_dot_addNewAddress": {
+    "string": "Додати нову адресу"
+  },
+  "intl_dot_checkoutMessages_dot_addressNextActionName": {
+    "string": "Продовжуйте доставку"
+  },
+  "intl_dot_checkoutMessages_dot_billingAddress": {
+    "string": "ПЛАТІЖНА АДРЕСА"
+  },
+  "intl_dot_checkoutMessages_dot_continueShopping": {
+    "string": "ПРОДОВЖИТИ ПОКУПКИ"
+  },
+  "intl_dot_checkoutMessages_dot_paymentMethod": {
+    "string": "МЕТОД ОПЛАТИ"
+  },
+  "intl_dot_checkoutMessages_dot_paymentNextActionName": {
+    "string": "Продовжити перегляд"
+  },
+  "intl_dot_checkoutMessages_dot_reviewNextActionName": {
+    "string": "Зробити замовлення "
+  },
+  "intl_dot_checkoutMessages_dot_reviewOrder": {
+    "string": "ПЕРЕГЛЯНУТИ ЗАМОВЛЕННЯ"
+  },
+  "intl_dot_checkoutMessages_dot_shippingAddress": {
+    "string": "Адреса доставки"
+  },
+  "intl_dot_checkoutMessages_dot_shippingMethod": {
+    "string": "МЕТОД ДОСТАВКИ"
+  },
+  "intl_dot_checkoutMessages_dot_shippingNextActionName": {
+    "string": "Продовжуйте оплату"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameAddress": {
+    "string": "Адреса"
+  },
+  "intl_dot_checkoutMessages_dot_stepNamePayment": {
+    "string": "Платіж"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameReview": {
+    "string": "Переглянути"
+  },
+  "intl_dot_checkoutMessages_dot_stepNameShipping": {
+    "string": "Доставка"
+  },
+  "intl_dot_commonMessages_dot_account": {
+    "string": "Account"
+  },
+  "intl_dot_commonMessages_dot_add": {
+    "string": "Додати"
+  },
+  "intl_dot_commonMessages_dot_addressBook": {
+    "string": "Адресна книга"
+  },
+  "intl_dot_commonMessages_dot_cancel": {
+    "string": "Відмінити"
+  },
+  "intl_dot_commonMessages_dot_checkout": {
+    "string": "Оформити замовлення"
+  },
+  "intl_dot_commonMessages_dot_choosePaymentMethod": {
+    "string": "Please choose payment method."
+  },
+  "intl_dot_commonMessages_dot_clearFilterHeader": {
+    "string": "ОЧИСТИТИ ФІЛЬТРИ"
+  },
+  "intl_dot_commonMessages_dot_eMail": {
+    "string": "Адреса електронної пошти"
+  },
+  "intl_dot_commonMessages_dot_filterHeader": {
+    "string": "ФІЛЬТРИ"
+  },
+  "intl_dot_commonMessages_dot_firstName": {
+    "string": "Ім'я"
+  },
+  "intl_dot_commonMessages_dot_home": {
+    "string": "Головна"
+  },
+  "intl_dot_commonMessages_dot_lastName": {
+    "string": "Прізвище"
+  },
+  "intl_dot_commonMessages_dot_loading": {
+    "string": "Завантаження"
+  },
+  "intl_dot_commonMessages_dot_logOut": {
+    "string": "Вийти"
+  },
+  "intl_dot_commonMessages_dot_lowStock": {
+    "string": "Низький запас"
+  },
+  "intl_dot_commonMessages_dot_maxQtyIs": {
+    "string": "Максимальна кількість - {maxQuantity}"
+  },
+  "intl_dot_commonMessages_dot_myAccount": {
+    "string": "Мій акаунт"
+  },
+  "intl_dot_commonMessages_dot_noItemsAvailable": {
+    "string": "No items available"
+  },
+  "intl_dot_commonMessages_dot_noPurchaseAvailable": {
+    "string": "Not available for purchase"
+  },
+  "intl_dot_commonMessages_dot_orderHistory": {
+    "string": "Історія замовлень"
+  },
+  "intl_dot_commonMessages_dot_outOfStock": {
+    "string": "Немає в наявності"
+  },
+  "intl_dot_commonMessages_dot_password": {
+    "string": "Пароль"
+  },
+  "intl_dot_commonMessages_dot_phone": {
+    "string": "Телефон"
+  },
+  "intl_dot_commonMessages_dot_phoneNumber": {
+    "string": "Номер телефону: {phone}"
+  },
+  "intl_dot_commonMessages_dot_price": {
+    "string": "Ціна"
+  },
+  "intl_dot_commonMessages_dot_products": {
+    "string": "Товари"
+  },
+  "intl_dot_commonMessages_dot_promoCode": {
+    "string": "Промо-код"
+  },
+  "intl_dot_commonMessages_dot_provideEmailAddress": {
+    "string": "Укажіть електронну адресу."
+  },
+  "intl_dot_commonMessages_dot_purchaseAvailableOn": {
+    "string": "Will become available for purchase on {date} at {time}"
+  },
+  "intl_dot_commonMessages_dot_qty": {
+    "string": "Кількість"
+  },
+  "intl_dot_commonMessages_dot_quantity": {
+    "string": "Кількість"
+  },
+  "intl_dot_commonMessages_dot_save": {
+    "string": "Зберегти"
+  },
+  "intl_dot_commonMessages_dot_search": {
+    "string": "пошук"
+  },
+  "intl_dot_commonMessages_dot_shipping": {
+    "string": "Доставка"
+  },
+  "intl_dot_commonMessages_dot_shortEmail": {
+    "string": "Електронна пошта"
+  },
+  "intl_dot_commonMessages_dot_showEmail": {
+    "string": "Електронна пошта: {email}"
+  },
+  "intl_dot_commonMessages_dot_sku": {
+    "string": "SKU"
+  },
+  "intl_dot_commonMessages_dot_status": {
+    "string": "Статус"
+  },
+  "intl_dot_commonMessages_dot_subtotal": {
+    "string": "Проміжний підсумок"
+  },
+  "intl_dot_commonMessages_dot_total": {
+    "string": "Загальна сума"
+  },
+  "intl_dot_commonMessages_dot_totalPrice": {
+    "string": "Загальна сума"
+  },
+  "intl_dot_commonMessages_dot_variant": {
+    "string": "Варіант"
+  },
+  "intl_dot_commonMessages_dot_youMightLike": {
+    "string": "You might like"
+  },
+  "intl_dot_orderStatusMessages_dot_canceled": {
+    "string": "Canceled"
+  },
+  "intl_dot_orderStatusMessages_dot_draft": {
+    "string": "Чернетка"
+  },
+  "intl_dot_orderStatusMessages_dot_fulfilled": {
+    "string": "Виконав"
+  },
+  "intl_dot_orderStatusMessages_dot_partiallyFulfilled": {
+    "string": "Частково виконано"
+  },
+  "intl_dot_orderStatusMessages_dot_unfulfilled": {
+    "string": "Невиконано"
+  },
+  "intl_dot_paymentStatusMessages_dot_fullyCharged": {
+    "string": "Fully charged"
+  },
+  "intl_dot_paymentStatusMessages_dot_fullyRefunded": {
+    "string": "Повне повернення"
+  },
+  "intl_dot_paymentStatusMessages_dot_notCharged": {
+    "string": "Not charged"
+  },
+  "intl_dot_paymentStatusMessages_dot_partiallyCharged": {
+    "string": "Partially charged"
+  },
+  "intl_dot_paymentStatusMessages_dot_partiallyRefunded": {
+    "string": "Частково повернено кошти"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsClear": {
+    "string": "Очистити ..."
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsName": {
+    "string": "За алфавітом: з початку"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsNameDsc": {
+    "string": "За алфавітом: з кінця"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsPrice": {
+    "string": "За зростанням ціни"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsPriceDsc": {
+    "string": "За спаданням ціни"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsUpdatedAt": {
+    "string": "Останнє оновлення: за зростанням"
+  },
+  "intl_dot_prodListHeaderCommonMsg_dot_sortOptionsUpdatedAtDsc": {
+    "string": "Останнє оновлення: за cпаданням"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_1857586798": {
+    "string": "Your order no.: {orderNum}"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_2670827143": {
+    "context": "action in popup menu in order view",
+    "string": "Download invoice"
+  },
+  "userAccount_dot_views_dot_OrderDetails_dot_Page_dot_624688748": {
+    "string": "Повернутися до історії замовлень"
+  },
+  "views_dot_Home_dot_Page_dot_2366307429": {
+    "string": "Фінальний розпродаж"
+  },
+  "views_dot_Home_dot_Page_dot_2812648978": {
+    "string": "Рекомендовані"
+  },
+  "views_dot_Home_dot_Page_dot_3347022999": {
+    "string": "Розпродаж"
+  },
+  "views_dot_Home_dot_Page_dot_3813745889": {
+    "string": "Купуйте за категоріями"
+  },
+  "views_dot_Home_dot_Page_dot_4153800196": {
+    "string": "Знижка до 70%"
+  },
+  "views_dot_Product_dot_Other_dot_3212906417": {
+    "string": "Інші товари цієї категорії"
+  },
+  "views_dot_Search_dot_Page_dot_2865432515": {
+    "string": "Шукати термін:"
+  }
+}

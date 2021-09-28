@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots @components/organisms/DiscountForm default 1`] = `
+.c0 {
+  position: relative;
+  margin: 20px;
+}
+
+.c11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgba(0,0,0,0.2);
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.c9 {
+  background-color: #13bebb;
+  padding: 0.9rem 3.7rem;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  width: auto;
+}
+
+.c9:hover {
+  background-color: #06a09e;
+  color: #fff;
+}
+
+.c9:active {
+  background-color: #06a09e;
+  box-shadow: -3px 3px 14px 0px rgba(129,67,67,0.2);
+}
+
+.c9:disabled {
+  background-color: #7d7d7d;
+}
+
+.c9:disabled,
+.c9:disabled:hover {
+  cursor: default;
+}
+
+.c10 {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.c7 {
+  position: absolute;
+  left: 1rem;
+  padding: 0 0rem;
+  background-color: transparent;
+  font-size: 1rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.3s ease,color 0s;
+  transition: all 0.3s ease,color 0s;
+  pointer-events: none;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #323232;
+  color: #323232;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.c4:hover {
+  color: rgb(33,18,94);
+  outline-width: 1px;
+  outline-style: solid;
+  border-color: rgb(33,18,94);
+  outline-color: rgb(33,18,94);
+}
+
+.c5 {
+  position: relative;
+  width: 100%;
+}
+
+.c6 {
+  padding: 0.8rem 1rem;
+  margin: 0;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  background-color: transparent;
+}
+
+.c6:-webkit-autofill + label {
+  left: 0.5rem;
+  padding: 0 0.5rem;
+  background-color: transparent;
+  font-size: 0.75rem;
+  top: 0;
+}
+
+.c1 {
+  margin-bottom: 1rem;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 {
+  width: auto;
+  min-width: 110px;
+}
+
+.c8 button {
+  padding: 0.8rem 1rem;
+}
+
+@media (max-width:540px) {
+  .c9 {
+    padding: 0.9rem 1rem;
+    width: 88%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <form
+    className=""
+    data-test="discountForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <div
+          className="c3"
+        >
+          <div
+            className="c4"
+            disabled={false}
+          >
+            <div
+              className="c5"
+            >
+              <input
+                className="c6"
+                disabled={false}
+                name="inputCode"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                value=""
+              />
+              <label
+                className="c7"
+              >
+                Promo code
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          className="c8"
+        >
+          <button
+            className="c9"
+            color="primary"
+            data-test="applyPromoCodeButton"
+            onClick={[Function]}
+            size="md"
+            type="button"
+          >
+            <span
+              className="c10"
+              size="md"
+            >
+              Apply
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div
+    className="c11"
+  />
+</div>
+`;

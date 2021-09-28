@@ -1,0 +1,24 @@
+{
+  "name": "saleor",
+  "version": "2.11.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mirumee/saleor.git"
+  },
+  "author": "Mirumee Software",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mirumee/saleor/issues"
+  },
+  "homepage": "http://saleor.io/",
+  "dependencies": {
+    "nice-try": "^3.0.0"
+  },
+  "devDependencies": {
+    "mjml": "^4.6.2"
+  },
+  "scripts": {
+    "build-schema": "python manage.py get_graphql_schema > saleor/graphql/schema.graphql",
+    "build-emails": "mjml --config.beautify false -l skip \"templates/templated_email/source/*.mjml\" -o templates/templated_email/compiled"
+  }
+}

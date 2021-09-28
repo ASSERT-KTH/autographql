@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "API_URI": "https://demo.saleor.io/graphql/"
+  },
+  "defaultCommandTimeout": 15000,
+  "requestTimeout": 15000,
+  "viewportWidth": 1400,
+  "viewportHeight": 660,
+  "projectId": "ftxg4w",
+  "watchForFileChanges": false
+}
