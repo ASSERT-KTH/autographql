@@ -1,0 +1,2840 @@
+{
+  "data": {
+    "__schema": {
+      "types": [
+        {
+          "name": "Query",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Webhook",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Node",
+          "kind": "INTERFACE"
+        },
+        {
+          "name": "ID",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "String",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Boolean",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "WebhookEvent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookEventTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ServiceAccount",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ObjectWithMetadata",
+          "kind": "INTERFACE"
+        },
+        {
+          "name": "MetadataItem",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetaStore",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetaClientStore",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetaItem",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DateTime",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Permission",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ServiceAccountToken",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "App",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppToken",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "WebhookCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageInfo",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Int",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "WebhookSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderDirection",
+          "kind": "ENUM"
+        },
+        {
+          "name": "WebhookSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "WebhookFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "JSONString",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "WebhookSampleEventTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Warehouse",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZone",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MoneyRange",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Money",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Float",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "CountryDisplay",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VAT",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ReducedRate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TaxRateType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ShippingMethod",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Weight",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WeightUnitsEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ShippingMethodTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ShippingMethodTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "LanguageDisplay",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "LanguageCodeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Address",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "TranslatableItemConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslatableItemEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslatableItem",
+          "kind": "UNION"
+        },
+        {
+          "name": "ProductTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Product",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Date",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "ProductType",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TaxType",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Attribute",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeInputTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AttributeValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AttributeValueTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "Category",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Image",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariant",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VariantPricingInfo",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TaxedMoney",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SelectedAttribute",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ReportingPeriod",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductImage",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentUrl",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UUID",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "Stock",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CountryCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductPricingInfo",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TaxedMoneyRange",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Margin",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Collection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StockAvailability",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductStockFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "IntRangeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PriceRangeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductOrder",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductOrderField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CollectionTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Page",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingMethodTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Sale",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CollectionCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Voucher",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DiscountValueTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MenuItemTranslatableContent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItem",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Menu",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslatableKinds",
+          "kind": "ENUM"
+        },
+        {
+          "name": "StockCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StockCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StockFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "Shop",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentGateway",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GatewayConfigLine",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Geolocalization",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AuthorizationKey",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AuthorizationKeyType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Domain",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Navigation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopTranslation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffNotificationRecipient",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "User",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Checkout",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCard",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLine",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Order",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderStatus",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Fulfillment",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentStatus",
+          "kind": "ENUM"
+        },
+        {
+          "name": "FulfillmentLine",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderLine",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Allocation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderAction",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Invoice",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Job",
+          "kind": "INTERFACE"
+        },
+        {
+          "name": "JobStatusEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PaymentChargeStatusEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "Payment",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Transaction",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TransactionKind",
+          "kind": "ENUM"
+        },
+        {
+          "name": "TransactionError",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CreditCard",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderEvent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderEventsEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "OrderEventsEmailsEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "OrderEventOrderLineObject",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserPermission",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Group",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerEvent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerEventsEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PaymentSource",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CategoryFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CategorySortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CategorySortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CollectionFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CollectionPublished",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CollectionSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CollectionSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductTypeFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductTypeConfigurable",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductTypeSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductTypeSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductVariantCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PaymentCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PageSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PageFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderEventCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderEventCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "OrderFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderStatusFilter",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DateRangeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderDraftFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MenuFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuItemCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuItemsSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MenuItemFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "Plugin",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ConfigurationItem",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ConfigurationTypeFieldEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PluginCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PluginCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PluginFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PluginSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PluginSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "SaleCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DiscountStatusEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DateTimeRangeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SaleSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SaleSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "VoucherCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "VoucherDiscountType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "VoucherSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "VoucherSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ExportFile",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportEvent",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportEventsEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ExportFileCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportFileCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportFileFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ExportFileSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ExportFileSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CheckoutCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLineCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLineCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppInstallation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AppSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AppSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AddressValidationData",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ChoiceValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "UserSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "UserSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "GroupCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GroupCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionGroupFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PermissionGroupSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PermissionGroupSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "StaffUserInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StaffMemberStatus",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ServiceAccountCountableConnection",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountCountableEdge",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountFilterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ServiceAccountSortingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ServiceAccountSortField",
+          "kind": "ENUM"
+        },
+        {
+          "name": "_Entity",
+          "kind": "UNION"
+        },
+        {
+          "name": "_Any",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "_Service",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Mutation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Error",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "WebhookCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WebhookDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WebhookUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "WarehouseCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseAddressInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "WarehouseDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseShippingZoneAssign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "WarehouseShippingZoneUnassign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AuthorizationKeyAdd",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AuthorizationKeyInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AuthorizationKeyDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffNotificationRecipientCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffNotificationRecipientInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StaffNotificationRecipientUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffNotificationRecipientDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "HomepageCollectionUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopDomainUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SiteDomainInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShopSettingsUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopSettingsInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShopFetchTaxRates",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShopSettingsTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslationError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslationErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ShopSettingsTranslationInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShopAddressUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShippingPriceCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ShippingPriceInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PositiveDecimal",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "WeightScalar",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "ShippingPriceDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingPriceBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingPriceUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingPriceTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "NameTranslationInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShippingZoneCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ShippingZoneDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ShippingZoneUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AttributeCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeValueCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeAssign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeAssignInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AttributeUnassign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetaInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetaPath",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeValueTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AttributeReorderValues",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ReorderInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CategoryCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SeoInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "Upload",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "CategoryDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "TranslationInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CategoryUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CategoryClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionAddProducts",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CollectionDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionReorderProducts",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MoveProductInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CollectionBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionBulkPublish",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionRemoveProducts",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CollectionTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CollectionClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AttributeValueInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StockInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductBulkPublish",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductSetAvailabilityForPurchase",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductVariantReorder",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageReorder",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductImageUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductTypeCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductTypeDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeReorderAttributes",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductTypeClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentUploadInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DigitalContentDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DigitalContentUrlCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DigitalContentUrlCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductVariantCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductVariantDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantBulkCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "BulkProductError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantBulkCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductVariantBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantStocksCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "BulkStockError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantStocksDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StockError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StockErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ProductVariantStocksUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductVariantSetDefault",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ProductVariantClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VariantImageAssign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VariantImageUnassign",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentCapture",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PaymentRefund",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentVoid",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PageInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PageDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageBulkPublish",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PageTranslationInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DraftOrderComplete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DraftOrderCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderLineCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DraftOrderDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderLinesBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderLinesCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderLineDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderLineUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderLineInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "DraftOrderUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DraftOrderInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderAddNote",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderAddNoteInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderCancel",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderCapture",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderFulfill",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderFulfillInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderFulfillLineInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderFulfillStockInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "FulfillmentCancel",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentCancelInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "FulfillmentUpdateTracking",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentUpdateTrackingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "FulfillmentClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "FulfillmentUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderMarkAsPaid",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderRefund",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderUpdateShipping",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderUpdateShippingInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "OrderVoid",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "OrderBulkCancel",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DeleteMetadata",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetadataError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetadataErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "DeletePrivateMetadata",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UpdateMetadata",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MetadataInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "UpdatePrivateMetadata",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AssignNavigation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "NavigationType",
+          "kind": "ENUM"
+        },
+        {
+          "name": "MenuCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuItemInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuItemCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "MenuItemDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemMove",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "MenuItemMoveInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "InvoiceRequest",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "InvoiceError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "InvoiceErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "InvoiceRequestDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "InvoiceCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "InvoiceCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "InvoiceDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "InvoiceUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UpdateInvoiceInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "InvoiceSendEmail",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardActivate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "GiftCardCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "GiftCardDeactivate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GiftCardUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PluginUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PluginError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PluginErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PluginUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ConfigurationItemInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SaleCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DiscountError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "DiscountErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "SaleInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SaleDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleAddCatalogues",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CatalogueInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "SaleRemoveCatalogues",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SaleTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "VoucherDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherAddCatalogues",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherRemoveCatalogues",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VoucherTranslate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportProducts",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ExportErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ExportProductsInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ExportScope",
+          "kind": "ENUM"
+        },
+        {
+          "name": "ExportInfoInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ProductFieldEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "FileTypesEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CheckoutAddPromoCode",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "CheckoutBillingAddressUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutComplete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CheckoutLineInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CheckoutCustomerAttach",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutCustomerDetach",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutEmailUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLineDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLinesAdd",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutLinesUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutRemovePromoCode",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutPaymentCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PaymentInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CheckoutShippingAddressUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutShippingMethodUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CheckoutClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AppInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AppUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppTokenCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppTokenInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AppTokenDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppTokenVerify",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppInstall",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppInstallInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AppRetryInstall",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppDeleteFailedInstallation",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppFetchManifest",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "Manifest",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppActivate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AppDeactivate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CreateToken",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "RefreshToken",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "VerifyToken",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "GenericScalar",
+          "kind": "SCALAR"
+        },
+        {
+          "name": "DeactivateAllUserTokens",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "RequestPasswordReset",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ConfirmAccount",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "SetPassword",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PasswordChange",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "RequestEmailChange",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ConfirmEmailChange",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountAddressCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressTypeEnum",
+          "kind": "ENUM"
+        },
+        {
+          "name": "AccountAddressUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountAddressDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountSetDefaultAddress",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountRegister",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountRegisterInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AccountUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "AccountRequestDeletion",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AccountUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "AddressSetDefault",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CustomerUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "CustomerDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "CustomerBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StaffUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "StaffDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "StaffBulkDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserAvatarUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserAvatarDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserBulkSetActive",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserUpdateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserClearMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "UserClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ServiceAccountUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountUpdatePrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountClearPrivateMeta",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountTokenCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "ServiceAccountTokenInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "ServiceAccountTokenDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionGroupCreate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionGroupError",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionGroupErrorCode",
+          "kind": "ENUM"
+        },
+        {
+          "name": "PermissionGroupCreateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PermissionGroupUpdate",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "PermissionGroupUpdateInput",
+          "kind": "INPUT_OBJECT"
+        },
+        {
+          "name": "PermissionGroupDelete",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Schema",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Type",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__TypeKind",
+          "kind": "ENUM"
+        },
+        {
+          "name": "__Field",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__InputValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__EnumValue",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__Directive",
+          "kind": "OBJECT"
+        },
+        {
+          "name": "__DirectiveLocation",
+          "kind": "ENUM"
+        }
+      ]
+    }
+  }
+}
