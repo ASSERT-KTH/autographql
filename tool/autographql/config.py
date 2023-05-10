@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 
-graphql_url = 'http://localhost:8000/graphql/'
+graphql_url = "" # example: "http://localhost:8000/graphql/"
 
 # JWT ***
-with open('./JWT-token.txt', 'r') as file:
-    token = file.read().replace('\n', '')
-authorization_token = "JWT " + token
+authorization_token = "" # example: "Bearer $TOKEN"
 
 schema_query = { "query": """query {
 __schema {

@@ -33,7 +33,7 @@ def main():
     encoder = json.JSONEncoder()
 
     types = requests.post(cfg.graphql_url, data=encoder.encode(cfg.schema_query),
-                         headers={'content-type': 'application/json'})
+                         headers={'content-type': 'application/json', 'Authorization': cfg.authorization_token})
 
     schema = json.loads(types.content)['data']['__schema']
 
